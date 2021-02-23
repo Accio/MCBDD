@@ -21,18 +21,22 @@ applications in drug discovery.
 
 ## Preparation
 
-To prepare for the course, please make sure (1) that you have acquired required
-prior knowledge, (2) that you register for regular Zoom meetings, and (3) that
-you can commit enough time to the course.
+To prepare for the course, please (1) check that you have acquired required
+prior knowledge, (2) be aware that the lecture will take place on Zoom, (3) fill
+the pre-course survey (optional) and (4) make sure that you have to commit
+enough time to the course.
 
 First, you should be familiar with the content covered by the course series
-[*Introduction to Applied Mathematics and Informatics In Drug Discovery*](https://www.amidd.ch) that run in fall semesters. Slides of that
-course are available in the link.
+[*Introduction to Applied Mathematics and Informatics In Drug Discovery*](https://www.amidd.ch) that run in fall semesters. Slides of that course are available in the link.
 
-Second, due to the coronavirus pandemic, the course in 2021 will take place online with
-*Zoom*. Please register yourself once for regular Zoom meetings with
-[this link at https://unibas.zoom.us](). The registration is necessary both for
-students who want to get credits and for auditors.
+Second, due to the coronavirus pandemic, the MCBDD course in 2021 will take
+place online with *Zoom*. The meeting link is shared with registered
+participants via Email.
+
+To make the course useful and valuable for you, I invite you to fill [the
+pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA). This is optional. I
+strongly encourage you to do so though because your opinions help to shape the
+course.
 
 Finally please note that the course requires about 2-4 hours' time each week for
 reading assignments or programming tasks.
