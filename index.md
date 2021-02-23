@@ -23,7 +23,7 @@ applications in drug discovery.
 
 To prepare for the course, please (1) check that you have acquired required
 prior knowledge, (2) be aware that the lecture will take place virtually on
-*Zoom*, (3) fill the pre-course survey, and (4) make sure that you
+*Zoom*, (3) fill [the pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA), and (4) make sure that you
 can commit enough time to the course.
 
 First, you should be familiar with the content covered by the course series
@@ -34,7 +34,7 @@ place online with *Zoom*. The meeting link is shared with registered
 participants via Email.
 
 To make the course useful and valuable for you, I invite you to fill [the
-pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA).  Your opinions help to
+pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA). Your opinions help to
 shape the course.
 
 Finally, please note that the course on average requires about 4-6 hours' time
@@ -96,7 +96,7 @@ topics:
 * Reproducible research tools, such as git, Snakemake/NextFlow, conda, etc.
 * Linear models and generalised linear models
 * Inference methods, such as the Expectation-Maximization (EM) algorithm, Hidden
-  Markov Models (HMMs) and clustering algorithms.
+  Markov Models (HMMs), clustering algorithms, and Markov-Chain Monte-Carlo.
 * Generative models
 * Gene network inference
 * Deep learning and Gaussian Process
