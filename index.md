@@ -68,7 +68,7 @@ depending on the feedback of the students.
 
 1. Reproducible computational research for drug discovery (05.03.2021)
 
-### Module I: Introduction and human genomics for drug discovery
+### Module I: Genomics for drug discovery
 
 2. Architecture of the human genome (12.03.2021)
 3. Evolution and variability of the human genome (19.03.2021)
