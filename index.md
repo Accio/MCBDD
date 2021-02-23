@@ -22,9 +22,9 @@ applications in drug discovery.
 ## Preparation
 
 To prepare for the course, please (1) check that you have acquired required
-prior knowledge, (2) be aware that the lecture will take place on Zoom, (3) fill
-the pre-course survey (optional) and (4) make sure that you have to commit
-enough time to the course.
+prior knowledge, (2) be aware that the lecture will take place virtually on
+*Zoom*, (3) fill the pre-course survey (optional), and (4) make sure that you
+can commit enough time to the course.
 
 First, you should be familiar with the content covered by the course series
 [*Introduction to Applied Mathematics and Informatics In Drug Discovery*](https://www.amidd.ch) that run in fall semesters. Slides of that course are available in the link.
@@ -38,14 +38,15 @@ pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA). This is optional. I
 strongly encourage you to do so though because your opinions help to shape the
 course.
 
-Finally please note that the course requires about 2-4 hours' time each week for
-reading assignments or programming tasks.
+Finally, please note that the course on average requires about 4-6 hours' time
+each week for reading assignments or programming tasks.
 
 ## Logistics
 
 ### Time
 
-Lectures takes place on Fridays between 12:15 and 14:00 on Zoom.
+Lectures take place on Fridays between 12:15 and 14:00 on Zoom. See
+[Syllabus](#syllabus) for the topics we plan to cover.
 
 ### Course material and licensing
 
@@ -61,23 +62,43 @@ The final note is given by participation (60%) and project work (40%).
 
 ## Syllabus
 
-We plan to cover the following topics; they may change based on the feedback of
-the students.
+We plan to cover the following topics in three models. The topics and the order
+may change based on the feedback of the students.
+
+### Module I: Introduction and human genomics for drug discovery
 
 1. Reproducible computational research for drug discovery (05.03.2021)
-3. The human genome (I): architecture and function (12.03.2021)
-4. The human genome (II): evolution and variability (19.03.2021)
-5. Gene expression (I): regulation and application (26.03.2021)
-6. *Ostern - no lecture* (02.04.2021)
-7. Gene expression (II): network analysis and MoA inference (09.04.2021)
-8. Special topics about antibodies and nucleotides (16.04.2021)
-9. Probability and inference (23.04.2021)
-10. Linear models and generalized linear models (30.05.2021)
-11. Clustering (07.05.2021)
-12. *Auffahrt - no lecture* (14.05.2021)
-13. Monte-Carlo methods (21.05.2021)
-14. Neural networks and Gaussian Process (28.05.2021)
-15. Guest lecture (04.06.2021)
+2 Architecture of the human genome (12.03.2021)
+3. Evolution and variability of the human genome (19.03.2021)
+4. Disease association and target hunting with genomics (26.03.2021)
+5. *Ostern - no lecture* (02.04.2021)
+
+### Module II: Gene expression and drug action
+
+6. Gene expression regulation (09.04.2021)
+7. Differential gene expression and functional analysis (16.04.2021)
+8. Inference of drug MoA with gene expression (23.04.2021)
+9. Single-cell analysis for disease understanding and target identification (30.04.2021)
+
+### Module III: Drug modalities
+
+10. Antisense oligonucleotides (16.04.2021)
+11. *Auffahrt - no lecture* (14.05.2021)
+12. Antibodies (21.05.2021)
+13. Gene- and cell-therapy and other novel modalities (28.05.2021)
+14. Guest lectures (04.06.2021)
+
+We will mainly discuss applications of following mathematical and
+computational topics along the way:
+
+* Reproducible research tools, such as git, Snakemake/NextFlow, conda, etc.
+* Linear models and generalised linear models
+* Inference methods, such as Expectation-Maximization (EM) algorithm, Hidden
+  Markov Models (HMMs) and clustering algorithms.
+* Generative models
+* Gene network inference
+* Deep learning and Gaussian Process
+* Mathematical modelling
 
 ## Contact
 
