@@ -62,13 +62,16 @@ The final note is given by participation (60%) and project work (40%).
 
 ## Syllabus
 
-We plan to cover the following topics in three models. The topics and the order
-may change based on the feedback of the students.
+We plan to cover the following topics. The topics and the order may change,
+depending on the feedback of the students.
+
+### Module Zero: The Survival tool kit
+
+1. Reproducible computational research for drug discovery (05.03.2021)
 
 ### Module I: Introduction and human genomics for drug discovery
 
-1. Reproducible computational research for drug discovery (05.03.2021)
-2 Architecture of the human genome (12.03.2021)
+2. Architecture of the human genome (12.03.2021)
 3. Evolution and variability of the human genome (19.03.2021)
 4. Disease association and target hunting with genomics (26.03.2021)
 5. *Ostern - no lecture* (02.04.2021)
@@ -88,12 +91,12 @@ may change based on the feedback of the students.
 13. Gene- and cell-therapy and other novel modalities (28.05.2021)
 14. Guest lectures (04.06.2021)
 
-We will mainly discuss applications of following mathematical and
-computational topics along the way:
+We mainly discuss applications of following mathematical and computational
+topics:
 
 * Reproducible research tools, such as git, Snakemake/NextFlow, conda, etc.
 * Linear models and generalised linear models
-* Inference methods, such as Expectation-Maximization (EM) algorithm, Hidden
+* Inference methods, such as the Expectation-Maximization (EM) algorithm, Hidden
   Markov Models (HMMs) and clustering algorithms.
 * Generative models
 * Gene network inference
