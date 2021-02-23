@@ -47,7 +47,7 @@ Lectures takes place on Fridays between 12:15 and 14:00 on Zoom.
 
 Course material, including lecture notes, slides, and reading material, is
 shared on the course’s web site, [https://www.MCBDD.ch](https://www.MCBDD.ch),
-under the Creative Commons (CC-BY-SA 4.0) license unless otherwise specified.
+under the GNU General Public License v3.0 unless otherwise specified.
 
 All Zoom sessions are recorded and distributed among attendees.
 
