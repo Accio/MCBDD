@@ -22,23 +22,25 @@ applications in drug discovery.
 ## Preparation
 
 To prepare for the course, please (1) check that you have acquired required
-prior knowledge, (2) be aware that the lecture will take place virtually on
-*Zoom*, (3) fill [the pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA), and (4) make sure that you
-can commit enough time to the course.
+prior knowledge, (2) make sure that you can commit enough time to the course,
+(3) be aware that the lecture will take place virtually on *Zoom*, and (4) fill
+[the pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA).
 
-First, you should be familiar with the content covered by the course series
-[*Introduction to Applied Mathematics and Informatics In Drug Discovery*](https://www.amidd.ch) that run in fall semesters. Slides of that course are available in the link.
+You should foremost be familiar with the content covered by the course series
+[*Introduction to Applied Mathematics and Informatics In Drug
+Discovery*](https://www.amidd.ch) that run in fall semesters.
 
-Second, due to the coronavirus pandemic, the MCBDD course in 2021 will take
+The MCBDD course on average requires about 4-6 hours' time each week for
+reading assignments or programming tasks.
+
+Due to the coronavirus pandemic, the MCBDD course in 2021 will take
 place online with *Zoom*. The meeting link is shared with registered
 participants via Email.
 
-To make the course useful and valuable for you, I invite you to fill [the
-pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA). Your opinions help to
-shape the course.
+Finally, to make the course useful and valuable for you, I invite you to fill
+[the pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA). Your opinions help
+to shape the course.
 
-Finally, please note that the course on average requires about 4-6 hours' time
-each week for reading assignments or programming tasks.
 
 ## Logistics
 
@@ -96,10 +98,11 @@ topics:
 * Reproducible research tools, such as git, Snakemake/NextFlow, conda, etc.
 * Linear models and generalised linear models
 * Inference methods, such as the Expectation-Maximization (EM) algorithm, Hidden
-  Markov Models (HMMs), clustering algorithms, and Markov-Chain Monte-Carlo.
+  Markov Models (HMMs), clustering algorithms, Monte-Carlo methods, and
+  variational methods
 * Generative models
 * Gene network inference
-* Deep learning and Gaussian Process
+* Machine learning, deep learning, and Gaussian Process
 * Mathematical modelling
 
 ## Contact
