@@ -86,7 +86,7 @@ depending on the feedback of the students.
 
 ### Module III: Drug modalities
 
-10. Antisense oligonucleotides (16.04.2021)
+10. Antisense oligonucleotides (07.05.2021)
 11. *Auffahrt - no lecture* (14.05.2021)
 12. Antibodies (21.05.2021)
 13. Gene- and cell-therapy and other novel modalities (28.05.2021)
