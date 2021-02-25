@@ -86,7 +86,8 @@ depending on the feedback of the students.
 
 ### Module Intermezzo: guest Lecture
 
-10. Guest lectures (07.05.2021)
+10. Guest lectures by Dr. Petra Schwalie, Dr. Tony Kam-Thong, and Dr. Fabian
+    Birzele. (07.05.2021)
 
 ### Module III: Drug modalities
 
