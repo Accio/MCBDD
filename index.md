@@ -84,7 +84,7 @@ depending on the feedback of the students.
 3. Inference of drug MoA with gene expression (23.04.2021)
 4. Single-cell analysis for disease understanding and target identification (30.04.2021)
 
-### Guest Lecture
+### Module Intermezzo: guest Lecture
 
 10. Guest lectures (07.05.2021)
 
