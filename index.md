@@ -79,14 +79,17 @@ depending on the feedback of the students.
 
 ### Module II: Gene expression and drug action
 
-6. Gene expression regulation (09.04.2021)
-7. Differential gene expression and functional analysis (16.04.2021)
-8. Inference of drug MoA with gene expression (23.04.2021)
-9. Single-cell analysis for disease understanding and target identification (30.04.2021)
+1. Gene expression regulation (09.04.2021)
+2. Differential gene expression and functional analysis (16.04.2021)
+3. Inference of drug MoA with gene expression (23.04.2021)
+4. Single-cell analysis for disease understanding and target identification (30.04.2021)
+
+### Guest Lecture
+
+10. Guest lectures (07.05.2021)
 
 ### Module III: Drug modalities
 
-10. Guest lectures (07.05.2021)
 11. *Auffahrt - no lecture* (14.05.2021)
 12. Antisense oligonucleotides (21.05.2021)
 13. Antibodies (28.05.2021)
