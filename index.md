@@ -66,7 +66,7 @@ The final note is given by participation (60%) and project work (40%).
 We plan to cover the following topics. The topics and the order may change,
 depending on the feedback of the students.
 
-### Module Zero: The Survival tool kit
+### Module Zero: The survival toolkit
 
 1. Reproducible computational research for drug discovery (05.03.2021)
 
