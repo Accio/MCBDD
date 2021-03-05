@@ -66,9 +66,9 @@ Participants will form teams of two and work on either option of the project
 work:
 
 * Option 1: Write a target (or screening) proposal for a disease of your choice, using publicly available data and tools/algorithms that we learn about to support your arguments.
-* Option 2: Write a Rmarkdown/Jupyter report about the Drug Central database, raising your own scientific questions about drug-target associations and answering them with analysis.
+* Option 2: Write a Rmarkdown/Jupyter report analysing data from [the Drug Central](https://drugcentral.org/) database, raising your own scientific questions about drug-target associations and answering them with analysis.
 
-Grade is given both by peer review and by the lecturer.
+Project grade is given both by peer review and by the lecturer.
 
 ## Syllabus
 
@@ -94,7 +94,7 @@ Grade is given both by peer review and by the lecturer.
 
 ### Module IV: What efficacy and safety profiles can we expect?
 
-1. Gene expression for MoA inference (30.04.2021)
+[1](1). Gene expression for MoA inference (30.04.2021)
 2. Guest lectures by Dr. Petra Schwalie, Dr. Tony Kam-Thong, and Dr. Fabian
     Birzele (07.05.2021)
 3. *Auffahrt - no lecture* (14.05.2021)
