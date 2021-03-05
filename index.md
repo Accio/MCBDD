@@ -60,42 +60,63 @@ All Zoom sessions are recorded and distributed among attendees.
 
 ### Assessment
 
-The final note is given by participation (60%) and project work (40%).
+The final note is given by offline activities (50%) and project work (50%).
+
+Participants will form teams of two and work on either option of the project
+work:
+
+* Option 1: Write a target (or screening) proposal for a disease of your choice, using publicly available data and tools/algorithms that we learn about to support your arguments.
+* Option 2: Write a Rmarkdown/Jupyter report about the Drug Central database, raising your own scientific questions about drug-target associations and answering them with analysis.
+
+Grade is given both by peer review and by the lecturer.
 
 ## Syllabus
 
-We plan to cover the following topics. The topics and the order may change,
-depending on the feedback of the students.
-
-### Module Zero: The survival toolkit
+### Module Zero: Introduction
 
 1. Reproducible computational research for drug discovery (05.03.2021)
 
-### Module I: Genomics for drug discovery
+### Module I: What makes a good drug target?
 
-2. Architecture of the human genome (12.03.2021)
-3. Evolution and variability of the human genome (19.03.2021)
-4. Disease association and target hunting with genomics (26.03.2021)
-5. *Ostern - no lecture* (02.04.2021)
+1. What makes a good drug target (12.03.2021)
+2. How to identify, assess, and validate drug targets? (19.03.2021)
 
-### Module II: Gene expression and drug action
+### Module II: What can we do if there are no good targets?
 
-1. Gene expression regulation (09.04.2021)
-2. Differential gene expression and functional analysis (16.04.2021)
-3. Inference of drug MoA with gene expression (23.04.2021)
-4. Single-cell analysis for disease understanding and target identification (30.04.2021)
+1. Phenotypic screening and molecular phenotypic screening (26.03.2021)
+2. *Ostern - no lecture* (02.04.2021)
+3. Chemogenomic screening and drug repurposing (09.04.2021)
 
-### Module Intermezzo: Guest lectures
+### Module III: What kind of drug should we develop?
 
-10. Guest lectures by Dr. Petra Schwalie, Dr. Tony Kam-Thong, and Dr. Fabian
+1. RNA therapeutics and antisense oligonucleotides (16.04.2021)
+2. Antibodies and novel protein therapeutics (23.04.2021)
+
+### Module IV: What efficacy and safety profiles can we expect?
+
+1. Gene expression for MoA inference (30.04.2021)
+2. Guest lectures by Dr. Petra Schwalie, Dr. Tony Kam-Thong, and Dr. Fabian
     Birzele (07.05.2021)
+3. *Auffahrt - no lecture* (14.05.2021)
 
-### Module III: Drug modalities
+### Module V: For which patients will the drug work?
 
-11. *Auffahrt - no lecture* (14.05.2021)
-12. Antisense oligonucleotides (21.05.2021)
-13. Antibodies (28.05.2021)
-14. Gene- and cell-therapy and other novel modalities (04.06.2021)
+12. Biomarker identification (21.05.2021)
+13. Why the drugs for some but not for others? (28.05.2021)
+
+### Module VI: How does the drug work, really?
+
+15. From PBPK to agend-based modelling (04.06.2021)
+
+We mainly discuss following topics from biology
+
+* Genetics and population genetics
+* Genomics and comparative genomics
+* Transcriptomics and proteomics
+* Chemical biology
+* Functional genomics
+* Antisense oligonucleotides and antibodies
+* Pharmacokinetics and pharmacodynamics
 
 We mainly discuss applications of following mathematical and computational
 topics:
