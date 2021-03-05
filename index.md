@@ -79,7 +79,8 @@ Project grade is given both by peer review and by the lecturer.
     * [Slides of lecture #1](assets/2021/01/MCBDD-2021-01-Intro.pdf): we covered
       all slides up to slide #19; the reproducible research part will be covered
       in lecture #2;
-    * Recording (passcode shared by emails): in preparation
+    * [Recording](https://unibas.zoom.us/rec/share/CPcuBzEF3wOQCYTNUWvY77jbmLhzMmaKDN8SWZjFFixad-zzcJm-st9vLPcy4kC1.QfrraqDLZhCznlAQ):
+    passcode is shared by email.
     * Offline activities (see slide page 26)
       * Please fill the [anonymous post-lecture
         survey](https://forms.gle/idcFHkEQ6WDeD7Bv8). All post-lecture surveys are
