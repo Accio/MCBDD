@@ -74,7 +74,20 @@ Project grade is given both by peer review and by the lecturer.
 
 ### Module Zero: Introduction
 
-1. Reproducible computational research for drug discovery (05.03.2021)
+1. Introduction to mathematical and computational biology in drug discovery
+   (05.03.2021)
+    * [Slides of lecture #1](assets/2021/01/MCBDD-2021-01-Intro.pdf): we covered
+      all slides up to slide #19; the reproducible research part will be covered
+      in lecture #2;
+    * Recording (passcode shared by emails): in preparation
+    * Offline activities (see slide page 26)
+      * Please fill the [anonymous post-lecture
+        survey](https://forms.gle/idcFHkEQ6WDeD7Bv8). All post-lecture surveys are
+        optional, however I encourage you to fill them because your feedback is
+        important for me to constantly improve the course and to address your
+        burning questions.
+      * [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
+      * [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
 
 ### Module I: What makes a good drug target?
 
