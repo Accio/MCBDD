@@ -90,7 +90,7 @@ Project grade is given both by peer review and by the lecturer.
       * [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
       * [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
 
-### Module I: What makes a good drug target?
+### Module I: What are drug targets and where to find them?
 
 1. What makes a good drug target (12.03.2021)
 2. How to identify, assess, and validate drug targets? (19.03.2021)
@@ -118,7 +118,7 @@ Project grade is given both by peer review and by the lecturer.
 12. Biomarker identification (21.05.2021)
 13. Why the drugs for some but not for others? (28.05.2021)
 
-### Module VI: How does the drug work, really?
+### Module VI: How does the drug work, *really*?
 
 15. From PBPK to agend-based modelling (04.06.2021)
 
