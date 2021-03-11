@@ -92,7 +92,7 @@ Project grade is given both by peer review and by the lecturer.
 
 ### Module I: What are drug targets and where to find them?
 
-This module contains two lectures: (1) what makes a good drug target
+This module consists of two lectures: (1) what makes a good drug target
 (12.03.2021), and (2) how to identify, assess, and validate drug targets?
 (19.03.2021).
 
@@ -106,9 +106,10 @@ by *WEHI* that combines an artist's impression and simulation.
 
 ### Module II: What can we do if there are no good targets?
 
-1. Phenotypic screening and molecular phenotypic screening (26.03.2021)
-2. *Ostern - no lecture* (02.04.2021)
-3. Chemogenomic screening and drug repurposing (09.04.2021)
+Module II include two lectures: (1) phenotypic screening and molecular
+phenotypic screening (26.03.2021), and (2) chemogenomic library screening and drug
+repurposing (09.04.2021). Thanks to Easter we will have *no lecture* on
+02.04.2021.
 
 ### Module III: What kind of drug should we develop?
 
@@ -117,7 +118,7 @@ by *WEHI* that combines an artist's impression and simulation.
 
 ### Module IV: What efficacy and safety profiles can we expect?
 
-[1](1). Gene expression for MoA inference (30.04.2021)
+1. Gene expression for MoA inference (30.04.2021)
 2. Guest lectures by Dr. Petra Schwalie, Dr. Tony Kam-Thong, and Dr. Fabian
     Birzele (07.05.2021)
 3. *Auffahrt - no lecture* (14.05.2021)
