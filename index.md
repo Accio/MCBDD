@@ -102,6 +102,8 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 *yourgenome*, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
 by *WEHI* that combines an artist's impression and simulation.
 
+* [Slides of Module I](assets/2021/ModuleI/MCBDD-2021-ModuleI.pdf)
+
 ### Module II: What can we do if there are no good targets?
 
 1. Phenotypic screening and molecular phenotypic screening (26.03.2021)
