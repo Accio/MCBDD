@@ -99,7 +99,7 @@ This module contains two lectures: (1) what makes a good drug target
 Prior to attending the courses, you can refresh your knowledge in the central
 dogma of molecular biology and in the human genome by watching the animation
 film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
-`yourgenome`, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
+*yourgenome*, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
 by *WEHI* that combines an artist's impression and simulation.
 
 ### Module II: What can we do if there are no good targets?
