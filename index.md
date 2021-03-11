@@ -77,8 +77,8 @@ Project grade is given both by peer review and by the lecturer.
 1. Introduction to mathematical and computational biology in drug discovery
    (05.03.2021)
     * [Slides of lecture #1](assets/2021/01/MCBDD-2021-01-Intro.pdf): we covered
-      all slides up to slide #19; the reproducible research part will be covered
-      in lecture #2;
+      all slides up to slide #19. The reproducible research part will be covered
+      later.
     * [Recording](https://unibas.zoom.us/rec/share/CPcuBzEF3wOQCYTNUWvY77jbmLhzMmaKDN8SWZjFFixad-zzcJm-st9vLPcy4kC1.QfrraqDLZhCznlAQ):
     passcode is shared by email.
     * Offline activities (see slide page 26)
@@ -92,8 +92,15 @@ Project grade is given both by peer review and by the lecturer.
 
 ### Module I: What are drug targets and where to find them?
 
-1. What makes a good drug target (12.03.2021)
-2. How to identify, assess, and validate drug targets? (19.03.2021)
+This module contains two lectures: (1) what makes a good drug target
+(12.03.2021), and (2) how to identify, assess, and validate drug targets?
+(19.03.2021).
+
+Prior to attending the courses, you can refresh your knowledge in the central
+dogma of molecular biology and in the human genome by watching the animation
+film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
+`yourgenome`, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
+by *WEHI* that combines an artist's impression and simulation.
 
 ### Module II: What can we do if there are no good targets?
 
