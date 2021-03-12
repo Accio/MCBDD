@@ -106,31 +106,40 @@ by *WEHI* that combines an artist's impression and simulation.
 
 ### Module II: What can we do if there are no good targets?
 
-Module II include two lectures: (1) phenotypic screening and molecular
-phenotypic screening (26.03.2021), and (2) chemogenomic library screening and drug
-repurposing (09.04.2021). Thanks to Easter we will have *no lecture* on
-02.04.2021.
+Module II discusses about phenotypic drug discovery. It includes two lectures:
+(1) phenotypic screening and molecular phenotypic screening (26.03.2021), and
+(2) chemogenomic library screening and drug repurposing (09.04.2021). We will
+have *no lecture* on 02.04.2021 thanks to Easter.
 
 ### Module III: What kind of drug should we develop?
 
-1. RNA therapeutics and antisense oligonucleotides (16.04.2021)
-2. Antibodies and novel protein therapeutics (23.04.2021)
+Module III considers modality selection from a computational point of view. It
+includes two lectures: (1) RNA therapeutics and antisense oligonucleotides
+(16.04.2021), and (2) Antibodies and novel protein therapeutics (23.04.2021). If
+time allows, we will also talk about gene- and cell-therapies.
 
 ### Module IV: What efficacy and safety profiles can we expect?
 
-1. Gene expression for MoA inference (30.04.2021)
-2. Guest lectures by Dr. Petra Schwalie, Dr. Tony Kam-Thong, and Dr. Fabian
-    Birzele (07.05.2021)
-3. *Auffahrt - no lecture* (14.05.2021)
+Module IV focuses on MoA inference for safety and efficacy profiles of drug
+candidates. We will mainly study gene expression for the purpose of MoA
+inference (30.04.2021), and explore the question how to predict safety profiles
+of drugs (21.05.2021).
 
-### Module V: For which patients will the drug work?
+In a special session on 07.05.2021, we will have Dr. Petra Schwalie, Dr. Tony
+Kam-Thong, and Dr. Fabian Birzele as guest speakers. They shall share their
+research experience in drug discovery.
 
-12. Biomarker identification (21.05.2021)
-13. Why does a drug work for some but not for others? (28.05.2021)
+On 14.05.2021, the Ascension Day, (*Auffahrt*), we will have no lecture.
 
-### Module VI: How does the drug work, *really*?
+### Module V: For which patients will the drug work and how does it work, *really*?
 
-15. From PBPK to agend-based modelling (04.06.2021)
+We consider the problem of patient stratification, enrichment, and biomarker
+identification in Module V. We will learn about how mathematical and computational
+biology contributes to biomarker identification (28.05.2021), and consider how
+to model disease progression and drug's action using integrated modelling with
+knowledge and data (04.06.2021).
+
+### Topics
 
 We mainly discuss following topics from biology
 
