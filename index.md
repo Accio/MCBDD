@@ -126,7 +126,7 @@ repurposing (09.04.2021). Thanks to Easter we will have *no lecture* on
 ### Module V: For which patients will the drug work?
 
 12. Biomarker identification (21.05.2021)
-13. Why the drugs for some but not for others? (28.05.2021)
+13. Why does a drug work for some but not for others? (28.05.2021)
 
 ### Module VI: How does the drug work, *really*?
 
