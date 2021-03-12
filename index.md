@@ -103,6 +103,8 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2021/ModuleI/MCBDD-2021-ModuleI.pdf)
+* [Offline activities of Module I](https://forms.gle/7fw4crADwfYJN9hS9). Please
+  finish this and further offline activities before semester ends to get credits.
 
 ### Module II: What can we do if there are no good targets?
 
