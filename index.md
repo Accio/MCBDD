@@ -74,21 +74,15 @@ Project grade is given both by peer review and by the lecturer.
 
 ### Module Zero: Introduction
 
-1. Introduction to mathematical and computational biology in drug discovery
-   (05.03.2021)
-    * [Slides of lecture #1](assets/2021/01/MCBDD-2021-01-Intro.pdf): we covered
-      all slides up to slide #19. The reproducible research part will be covered
-      later.
-    * [Recording](https://unibas.zoom.us/rec/share/CPcuBzEF3wOQCYTNUWvY77jbmLhzMmaKDN8SWZjFFixad-zzcJm-st9vLPcy4kC1.QfrraqDLZhCznlAQ):
-    passcode is shared by email.
-    * Offline activities (see slide page 26)
-      * Please fill the [anonymous post-lecture
-        survey](https://forms.gle/idcFHkEQ6WDeD7Bv8). All post-lecture surveys are
-        optional, however I encourage you to fill them because your feedback is
-        important for me to constantly improve the course and to address your
-        burning questions.
-      * [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
-      * [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
+Module I is an introduction to mathematical and computational biology in drug
+discovery on 05.03.2021.
+
+* [Slides of lecture #1](assets/2021/01/MCBDD-2021-01-Intro.pdf): we covered all slides up to slide #19. The reproducible research part will be covered later.
+* [Recording](https://unibas.zoom.us/rec/share/CPcuBzEF3wOQCYTNUWvY77jbmLhzMmaKDN8SWZjFFixad-zzcJm-st9vLPcy4kC1.QfrraqDLZhCznlAQ): passcode is shared by email.
+* Offline activities (see slide page 26)
+   * Please fill the [anonymous post-lecture survey](https://forms.gle/idcFHkEQ6WDeD7Bv8). All post-lecture surveys are optional, however I encourage you to fill them because your feedback is important for me to constantly improve the course and to address your burning questions.
+   * Required reading: [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
+   * Optional reading: [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
 
 ### Module I: What are drug targets and where to find them?
 
@@ -103,6 +97,9 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2021/ModuleI/MCBDD-2021-ModuleI.pdf)
+* Lecture #2 (12.03.2021)
+  * [Anonymous post-lecture survey](https://forms.gle/vVWQAWcVHsDjuXZv6)
+  * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode shared with email.
 * [Offline activities of Module I](https://forms.gle/7fw4crADwfYJN9hS9). Please
   finish this and further offline activities before semester ends to get credits.
 
