@@ -97,11 +97,11 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2021/ModuleI/MCBDD-2021-ModuleI.pdf)
-* Lecture #2 (12.03.2021)
-  * [Anonymous post-lecture survey](https://forms.gle/vVWQAWcVHsDjuXZv6)
-  * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode shared with email.
 * [Offline activities of Module I](https://forms.gle/7fw4crADwfYJN9hS9). Please
   finish this and further offline activities before semester ends to get credits.
+* Lecture #2 (12.03.2021)
+  * [Anonymous post-lecture survey](https://forms.gle/vVWQAWcVHsDjuXZv6)
+  * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode is shared with email.
 
 ### Module II: What can we do if there are no good targets?
 
