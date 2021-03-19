@@ -102,13 +102,16 @@ by *WEHI* that combines an artist's impression and simulation.
 * Lecture #2 (12.03.2021)
   * [Anonymous post-lecture survey](https://forms.gle/vVWQAWcVHsDjuXZv6)
   * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode is shared with email.
+* Lecture #3 (19.03.2021)
+  * [Anonymous post-lecture survey](https://forms.gle/dwGBzavf7QSvyjCa6)
+  * Recording, audio, and chat transcripts: password is shared with email
 
 ### Module II: What can we do if there are no good targets?
 
 Module II discusses about phenotypic drug discovery. It includes two lectures:
 (1) phenotypic screening and molecular phenotypic screening (26.03.2021), and
 (2) chemogenomic library screening and drug repurposing (09.04.2021). We will
-have *no lecture* on 02.04.2021 thanks to Easter.
+have *no lecture* on 02.04.2021, the Good Friday.
 
 ### Module III: What kind of drug should we develop?
 
