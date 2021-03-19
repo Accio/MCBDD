@@ -104,7 +104,7 @@ by *WEHI* that combines an artist's impression and simulation.
   * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode is shared with email.
 * Lecture #3 (19.03.2021)
   * [Anonymous post-lecture survey](https://forms.gle/dwGBzavf7QSvyjCa6)
-  * Recording, audio, and chat transcripts: password is shared with email
+  * [Recording](https://unibas.zoom.us/rec/share/eRercRH3HqeTIGbEnd4TZmL9Uko-Upzw-LLAn5WViFKi3jelxbQQASY4MQcXBr8F.7uSslZBK0a2RxVBS): password is shared with email
 
 ### Module II: What can we do if there are no good targets?
 
