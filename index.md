@@ -113,14 +113,14 @@ Module II discusses about phenotypic drug discovery. It includes two lectures:
 (2) chemogenomic library screening and drug repurposing (09.04.2021). We will
 have *no lecture* on 02.04.2021, the Good Friday.
 
+* [Slides of Module II](assets/2021/ModuleII/MCBDD-2021-ModuleII.pdf)
+
 ### Module III: What kind of drug should we develop?
 
 Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) RNA therapeutics and antisense oligonucleotides
 (16.04.2021), and (2) Antibodies and novel protein therapeutics (23.04.2021). If
 time allows, we will also talk about gene- and cell-therapies.
-
-* [Slides of Module II](assets/2021/ModuleII/MCBDD-2021-ModuleII.pdf)
 
 ### Module IV: What efficacy and safety profiles can we expect?
 
