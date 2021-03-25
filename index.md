@@ -120,6 +120,8 @@ includes two lectures: (1) RNA therapeutics and antisense oligonucleotides
 (16.04.2021), and (2) Antibodies and novel protein therapeutics (23.04.2021). If
 time allows, we will also talk about gene- and cell-therapies.
 
+* [Slides of Module II](assets/2021/ModuleII/MCBDD-2021-ModuleII.pdf)
+
 ### Module IV: What efficacy and safety profiles can we expect?
 
 Module IV focuses on MoA inference for safety and efficacy profiles of drug
