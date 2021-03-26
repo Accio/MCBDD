@@ -108,12 +108,22 @@ by *WEHI* that combines an artist's impression and simulation.
 
 ### Module II: What can we do if there are no good targets?
 
-Module II discusses about phenotypic drug discovery. It includes two lectures:
-(1) phenotypic screening and molecular phenotypic screening (26.03.2021), and
-(2) chemogenomic library screening and drug repurposing (09.04.2021). We will
-have *no lecture* on 02.04.2021, the Good Friday.
+Module II discusses about alternatives to target-based drug discovery, in
+particular phenotypic drug discovery. It includes two lectures: (1) phenotypic
+screening with chemogenomic libraries (26.03.2021), and (2) molecular phenotypic
+screening based on gene expression (09.04.2021). We will have *no lecture* on
+02.04.2021, the Good Friday.
 
 * [Slides of Module II](assets/2021/ModuleII/MCBDD-2021-ModuleII.pdf)
+* [Offline activities of Module II](https://forms.gle/r7YDyw3vuGprHPnV9): The
+  explanation can be found in the slides (slide number #26). Please finish the
+  activities before the end of semester to get credits.
+* Lecture #4 (26.03.2021)
+    * [Anonymous post-lecture survey](https://forms.gle/td6e2e52VkLDnPLb7)
+    * Recording
+* Lecture #5 (09.04.2021)
+    * Anonymous post-lecture survey
+    * Recording
 
 ### Module III: What kind of drug should we develop?
 
