@@ -120,8 +120,7 @@ screening based on gene expression (09.04.2021). We will have *no lecture* on
   activities before the end of semester to get credits.
 * Lecture #4 (26.03.2021)
     * [Anonymous post-lecture survey](https://forms.gle/td6e2e52VkLDnPLb7)
-    *
-    [Recording](https://unibas.zoom.us/rec/share/5fqwZ0xrutPXiHnq52J_0VfSJSMLJ460kMqlc1YNGebr4NU8YizEMbL-53jiCBPg.Ez7goBjsN6ZZvSC4)
+    * [Recording](https://unibas.zoom.us/rec/share/5fqwZ0xrutPXiHnq52J_0VfSJSMLJ460kMqlc1YNGebr4NU8YizEMbL-53jiCBPg.Ez7goBjsN6ZZvSC4)
 * Lecture #5 (09.04.2021)
     * Anonymous post-lecture survey
     * Recording
