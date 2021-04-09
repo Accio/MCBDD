@@ -122,22 +122,31 @@ screening based on gene expression (09.04.2021). We will have *no lecture* on
     * [Anonymous post-lecture survey](https://forms.gle/td6e2e52VkLDnPLb7)
     * [Recording](https://unibas.zoom.us/rec/share/5fqwZ0xrutPXiHnq52J_0VfSJSMLJ460kMqlc1YNGebr4NU8YizEMbL-53jiCBPg.Ez7goBjsN6ZZvSC4)
 * Lecture #5 (09.04.2021)
-    * Anonymous post-lecture survey
+    * [Anonymous post-lecture survey](https://forms.gle/bYJeTqudmrjECMVz7)
     * Recording
 
 ### Module III: What kind of drug should we develop?
 
 Module III considers modality selection from a computational point of view. It
-includes two lectures: (1) RNA therapeutics and antisense oligonucleotides
-(16.04.2021), and (2) Antibodies and novel protein therapeutics (23.04.2021). If
-time allows, we will also talk about gene- and cell-therapies.
+includes two lectures: (1) novel small molecules and peptide/protein
+therapeutics (16.04.2021), and (2) RNA therapeutics and antisense
+oligonucleotides, and gene- and cell-therapies (23.04.2021).
+
+* Slides of Module III
+* Offline activities of Module III
+* Lecture #6 (16.04.2021)
+   * Anonymous post-lecture survey
+   * Recording
+* Lecture #7 (23.04.2021)
+   * Anonymous post-lecture survey
+   * Recording
 
 ### Module IV: What efficacy and safety profiles can we expect?
 
 Module IV focuses on MoA inference for safety and efficacy profiles of drug
-candidates. We will mainly study gene expression for the purpose of MoA
-inference (30.04.2021), and explore the question how to predict safety profiles
-of drugs (21.05.2021).
+candidates. We will mainly explore the possibility to use proteomics to infer
+mode of action (30.04.2021), and discuss computational analysis and impact of
+single-cell omics data (21.05.2021).
 
 In a special session on 07.05.2021, we will have Dr. Petra Schwalie, Dr. Tony
 Kam-Thong, and Dr. Fabian Birzele as guest speakers. They shall share their
