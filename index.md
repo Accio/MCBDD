@@ -123,7 +123,7 @@ screening based on gene expression (09.04.2021). We will have *no lecture* on
     * [Recording](https://unibas.zoom.us/rec/share/5fqwZ0xrutPXiHnq52J_0VfSJSMLJ460kMqlc1YNGebr4NU8YizEMbL-53jiCBPg.Ez7goBjsN6ZZvSC4)
 * Lecture #5 (09.04.2021)
     * [Anonymous post-lecture survey](https://forms.gle/bYJeTqudmrjECMVz7)
-    * Recording
+    * [Recording](https://unibas.zoom.us/rec/share/t-AbbcUN7hf7srscW7Hh7-0FpNOPGDTWi8u0RICibgGHQlfgo9wD9pA-GZHaNpgY.-00-0LsJugIh3aje)
 
 ### Module III: What kind of drug should we develop?
 
