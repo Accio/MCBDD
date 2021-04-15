@@ -128,11 +128,11 @@ screening based on gene expression (09.04.2021). We will have *no lecture* on
 ### Module III: What kind of drug should we develop?
 
 Module III considers modality selection from a computational point of view. It
-includes two lectures: (1) novel small molecules and peptide/protein
-therapeutics (16.04.2021), and (2) RNA therapeutics and antisense
-oligonucleotides, and gene- and cell-therapies (23.04.2021).
+includes two lectures: (1) novel small molecules and antisense oligonucleotides
+(16.04.2021), and (2) antibodies, multi-target drugs, and gene- and
+cell-therapies (23.04.2021).
 
-* Slides of Module III
+* [Slides of Module III](assets/2021/ModuleIII/MCBDD-2021-ModuleIII.pdf)
 * Offline activities of Module III
 * Lecture #6 (16.04.2021)
    * Anonymous post-lecture survey
