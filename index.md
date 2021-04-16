@@ -16,10 +16,13 @@ applications in drug discovery.
 - [Preparation](#preparation)
 - [Logistics](#logistics)
 - [Syllabus](#syllabus)
-   - [Module Zero](#module0)
-   - [Module I](#modulei)
-   - [Module II](#moduleii)
-   - [Module III](#moduleiii)
+   - [Module Zero](#module0): Introduction
+   - [Module I](#modulei): What are drug targets and where to find them?
+   - [Module II](#moduleii): What can we do if there are no good targets?
+   - [Module III](#moduleiii): What kind of drug should we develop?
+   - [Module IV](#moduleiv): What efficacy and safety profiles can we expect?
+   - [Module V](#modulev): For which patients will the drug work and how does it work, *really*?
+   - [Topics that we shall discuss](#topics)
 - [Contact](#contact)
 
 
@@ -166,6 +169,8 @@ cell-therapies (23.04.2021).
    * Anonymous post-lecture survey
    * Recording
 
+<a name="moduleiv"></a>
+
 ### Module IV: What efficacy and safety profiles can we expect?
 
 Module IV focuses on MoA inference for safety and efficacy profiles of drug
@@ -179,6 +184,8 @@ research experience in drug discovery.
 
 On 14.05.2021, the Ascension Day, (*Auffahrt*), we will have no lecture.
 
+<a name="modulev"></a>
+
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
 We consider the problem of patient stratification, enrichment, and biomarker
@@ -187,7 +194,9 @@ biology contributes to biomarker identification (28.05.2021), and consider how
 to model disease progression and drug's action using integrated modelling with
 knowledge and data (04.06.2021).
 
-### Topics
+<a name="topics"></a>
+
+### Topics that we shall discuss
 
 We mainly discuss following topics from biology
 
