@@ -16,6 +16,7 @@ applications in drug discovery.
 - [Preparation](#preparation)
 - [Logistics](#logistics)
 - [Syllabus](#syllabus)
+    - [Module III](#moduleiii)
 - [Contact](#contact)
 
 
@@ -126,6 +127,8 @@ screening based on gene expression (09.04.2021). We will have *no lecture* on
     * [Recording](https://unibas.zoom.us/rec/share/t-AbbcUN7hf7srscW7Hh7-0FpNOPGDTWi8u0RICibgGHQlfgo9wD9pA-GZHaNpgY.-00-0LsJugIh3aje)
 
 ### Module III: What kind of drug should we develop?
+
+<a name="moduleiii"></a>
 
 Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) novel small molecules and antisense oligonucleotides
