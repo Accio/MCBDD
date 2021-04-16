@@ -133,9 +133,20 @@ includes two lectures: (1) novel small molecules and antisense oligonucleotides
 cell-therapies (23.04.2021).
 
 * [Slides of Module III](assets/2021/ModuleIII/MCBDD-2021-ModuleIII.pdf)
-* Offline activities of Module III
+* Offline activities of Module III: read three pieces about RNA therapies and
+  vaccinations, and build your own opinions about them. You do not need to
+  submit your opinions, however, you are welcome to raise any questions that you
+  may have via emails or anonymous surveys.
+    * Levin, Arthur A. 2019. “Treating Disease at the RNA Level with
+      Oligonucleotides.” New England Journal of Medicine 380 (1): 57–70.
+      [Link](https://doi.org/10.1056/NEJMra1705346);
+    * Blog post *Oligonucleotides and their discontents* by Derek Loewe in *In
+      The Pipeline*, [Link](https://blogs.sciencemag.org/pipeline/archives/2021/03/24/oligonucleotides-and-their-discontents);
+    * Article *The next act for messenger RNA could be bigger than covid
+      vaccines*, published in *MIT Technology Review* 2021, by Antonio Regalado,
+      [Link](https://www.technologyreview.com/2021/02/05/1017366/messenger-rna-vaccines-covid-hiv/).
 * Lecture #6 (16.04.2021)
-   * Anonymous post-lecture survey
+   * [Anonymous post-lecture survey](https://forms.gle/GANmw948WoSrWx4v6)
    * Recording
 * Lecture #7 (23.04.2021)
    * Anonymous post-lecture survey
