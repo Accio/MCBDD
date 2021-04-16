@@ -164,7 +164,7 @@ cell-therapies (23.04.2021).
       [Link](https://www.technologyreview.com/2021/02/05/1017366/messenger-rna-vaccines-covid-hiv/).
 * Lecture #6 (16.04.2021)
    * [Anonymous post-lecture survey](https://forms.gle/GANmw948WoSrWx4v6)
-   * Recording
+   * [Recording](https://unibas.zoom.us/rec/share/BdAFuILYih24H7p6J3WiaY0uwFDQRkodjEMGFqnGaacQYNqemsYZAGx5xCC1pUrJ.ftzKa63FrIbGfkJa)
 * Lecture #7 (23.04.2021)
    * Anonymous post-lecture survey
    * Recording
