@@ -16,7 +16,10 @@ applications in drug discovery.
 - [Preparation](#preparation)
 - [Logistics](#logistics)
 - [Syllabus](#syllabus)
-    - [Module III](#moduleiii)
+   - [Module Zero](#module0)
+   - [Module I](#modulei)
+   - [Module II](#moduleii)
+   - [Module III](#moduleiii)
 - [Contact](#contact)
 
 
@@ -73,6 +76,7 @@ Project grade is given both by peer review and by the lecturer.
 
 ## Syllabus
 
+<a name="module0"></a>
 ### Module Zero: Introduction
 
 Module I is an introduction to mathematical and computational biology in drug
@@ -84,6 +88,8 @@ discovery on 05.03.2021.
    * Please fill the [anonymous post-lecture survey](https://forms.gle/idcFHkEQ6WDeD7Bv8). All post-lecture surveys are optional, however I encourage you to fill them because your feedback is important for me to constantly improve the course and to address your burning questions.
    * Required reading: [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
    * Optional reading: [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
+
+<a name="modulei"></a>
 
 ### Module I: What are drug targets and where to find them?
 
@@ -105,7 +111,12 @@ by *WEHI* that combines an artist's impression and simulation.
   * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode is shared with email.
 * Lecture #3 (19.03.2021)
   * [Anonymous post-lecture survey](https://forms.gle/dwGBzavf7QSvyjCa6)
-  * [Recording](https://unibas.zoom.us/rec/share/eRercRH3HqeTIGbEnd4TZmL9Uko-Upzw-LLAn5WViFKi3jelxbQQASY4MQcXBr8F.7uSslZBK0a2RxVBS): password is shared with email
+  *
+  [Recording](https://unibas.zoom.us/rec/share/eRercRH3HqeTIGbEnd4TZmL9Uko-Upzw-LLAn5WViFKi3jelxbQQASY4MQcXBr8F.7uSslZBK0a2RxVBS):
+  password is shared with email.
+
+
+<a name="moduleii"></a>
 
 ### Module II: What can we do if there are no good targets?
 
@@ -126,9 +137,9 @@ screening based on gene expression (09.04.2021). We will have *no lecture* on
     * [Anonymous post-lecture survey](https://forms.gle/bYJeTqudmrjECMVz7)
     * [Recording](https://unibas.zoom.us/rec/share/t-AbbcUN7hf7srscW7Hh7-0FpNOPGDTWi8u0RICibgGHQlfgo9wD9pA-GZHaNpgY.-00-0LsJugIh3aje)
 
-### Module III: What kind of drug should we develop?
-
 <a name="moduleiii"></a>
+
+### Module III: What kind of drug should we develop?
 
 Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) novel small molecules and antisense oligonucleotides
