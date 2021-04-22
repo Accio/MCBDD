@@ -166,7 +166,7 @@ cell-therapies (23.04.2021).
    * [Anonymous post-lecture survey](https://forms.gle/GANmw948WoSrWx4v6)
    * [Recording](https://unibas.zoom.us/rec/share/BdAFuILYih24H7p6J3WiaY0uwFDQRkodjEMGFqnGaacQYNqemsYZAGx5xCC1pUrJ.ftzKa63FrIbGfkJa)
 * Lecture #7 (23.04.2021)
-   * Anonymous post-lecture survey
+   * [Anonymous post-lecture survey](https://forms.gle/QKZoFmnK5mP7pc95A)
    * Recording
 
 <a name="moduleiv"></a>
@@ -174,9 +174,9 @@ cell-therapies (23.04.2021).
 ### Module IV: What efficacy and safety profiles can we expect?
 
 Module IV focuses on MoA inference for safety and efficacy profiles of drug
-candidates. We will mainly explore the possibility to use proteomics to infer
-mode of action (30.04.2021), and discuss computational analysis and impact of
-single-cell omics data (21.05.2021).
+candidates. We will mainly computational analysis and impact of single-cell
+omics data (30.04.2021), and explore the potential of proteomics to infer mode
+of action (21.05.2021).
 
 In a special session on 07.05.2021, we will have Dr. Petra Schwalie, Dr. Tony
 Kam-Thong, and Dr. Fabian Birzele as guest speakers. They shall share their
