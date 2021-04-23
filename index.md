@@ -167,7 +167,7 @@ cell-therapies (23.04.2021).
    * [Recording](https://unibas.zoom.us/rec/share/BdAFuILYih24H7p6J3WiaY0uwFDQRkodjEMGFqnGaacQYNqemsYZAGx5xCC1pUrJ.ftzKa63FrIbGfkJa)
 * Lecture #7 (23.04.2021)
    * [Anonymous post-lecture survey](https://forms.gle/QKZoFmnK5mP7pc95A)
-   * Recording
+   * [Recording](https://unibas.zoom.us/rec/share/oIJ72SKbF_lRH_crQwdjlyzrRdeJj5eacenQTUa8uEKOcYvbQXYt1nc5EnCvSxYE.1eSzYBQDZjyMVh-T)
 
 <a name="moduleiv"></a>
 
