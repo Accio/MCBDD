@@ -6,3 +6,4 @@ vendor
 *.swp
 scripts/.ipynb_checkpoints
 *.html
+scripts/figure

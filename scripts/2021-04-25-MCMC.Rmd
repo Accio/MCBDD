@@ -48,6 +48,15 @@ exp_num_pomodoros <- num_pomodoros/sum(1:10)*1:10
 }
 ```
 
+```{r randomwalk, fig.height=2, fig.width=5}
+{
+	compactPar()
+	plot(1:21, rep(0.9, 21), ylim=c(0,1), axes=FALSE, type="h", xlab="", ylab="")
+	segments(11, 0, 11, 0.9, col="red")
+	axis(1, at=c(1, 11, 21), labels=c("-10", "0", "+10"), tick=FALSE)
+}
+```
+
 ## Session info
 
 ```{r}
