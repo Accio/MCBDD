@@ -1,0 +1,56 @@
+---
+title: "Introduction to MCMC"
+author: "Jitao david Zhang"
+date: "26/04/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      figure.width=5, fig.height=5)
+library(ribiosPlot)
+set.seed(1887)
+```
+
+## Pomodoro
+
+```{r mcmc}
+num_pomodoros <- 10000
+tasks <- integer(num_pomodoros)
+current <- 8 # does not matter
+for ( i in 1:num_pomodoros ) {
+  tasks[i] <- current
+  
+  # flip a coin to generate proposal
+  proposal <- current + sample(c(-1, 1), size=1)
+  # make sure that we loop around
+  if( proposal < 1 ) {
+    proposal <- 10
+  } else if ( proposal > 10) {
+    proposal <- 1
+  }
+
+  # move?
+  prob_move <- proposal/current
+  current <- ifelse(runif(1) < prob_move, proposal, current)
+}
+```
+
+```{r}
+exp_num_pomodoros <- num_pomodoros/sum(1:10)*1:10
+```
+
+```{r, fig.width=8, fig.height=4}
+{
+  compactPar(mfrow=c(1,2), mgp=c(1.5, 0.5, 0))
+  plot(y = tasks[1:100], x = 1:100, xlab="Pomodoro", ylab="Task")
+  plot(table(tasks), xlab="Task", ylab="Number of pomodoros"); points(1:10, exp_num_pomodoros, pch=4, col="red")
+}
+```
+
+## Session info
+
+```{r}
+sessionInfo()
+```
+
