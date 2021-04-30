@@ -184,8 +184,8 @@ of action (21.05.2021).
    * [Anonymous post-lecture survey](https://forms.gle/NGhXKcw3iTn8Zj8VA)
    * [Recording](https://unibas.zoom.us/rec/share/CtZEGBrE7lXXDnpN0dH0jWJDextfyuD3BIyPTHNrkeSQFxPudHp_F2GqEbP2Pbnf.NPr1xtzgyt1ck2o_)
 * Lecture #9 (21.05.2021)
-   * [Anonymous post-lecture survey]()
-   * [Recording]()
+   * Anonymous post-lecture survey
+   * Recording
 
 The offline activities of Module IV is to do single-cell RNA-seq analysis
 yourself with either Python or R. This activity is *optional*: it does not count
