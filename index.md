@@ -180,7 +180,7 @@ of action (21.05.2021).
 
 * [Slides of Module IV](assets/2021/ModuleIV/MCBDD-2021-ModuleIV.pdf)
 * Lecture #8 (30.04.2021)
-   * [Anonymous post-lecture survey]()
+   * [Anonymous post-lecture survey](https://forms.gle/NGhXKcw3iTn8Zj8VA)
    * [Recording]()
 * Lecture #9 (21.05.2021)
    * [Anonymous post-lecture survey]()
