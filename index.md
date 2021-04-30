@@ -178,13 +178,33 @@ candidates. We will mainly computational analysis and impact of single-cell
 omics data (30.04.2021), and explore the potential of proteomics to infer mode
 of action (21.05.2021).
 
+
 * [Slides of Module IV](assets/2021/ModuleIV/MCBDD-2021-ModuleIV.pdf)
 * Lecture #8 (30.04.2021)
    * [Anonymous post-lecture survey](https://forms.gle/NGhXKcw3iTn8Zj8VA)
-   * [Recording]()
+   * [Recording](https://unibas.zoom.us/rec/share/CtZEGBrE7lXXDnpN0dH0jWJDextfyuD3BIyPTHNrkeSQFxPudHp_F2GqEbP2Pbnf.NPr1xtzgyt1ck2o_)
 * Lecture #9 (21.05.2021)
    * [Anonymous post-lecture survey]()
    * [Recording]()
+
+The offline activities of Module IV is to do single-cell RNA-seq analysis
+yourself with either Python or R. This activity is *optional*: it does not count
+to the final grade. I recommend you doing it because you can get first-hand
+experience analysing high-dimensional, sparse, and noisy biological data. See
+slides for links to tutorials and courses.
+
+* If you are new to the topic of single-cell RNA sequencing, please follow the
+  [PBMC tutorial of
+  *Scanpy*](https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html)
+  (python) or the [PBMC tutorial of
+  *Seurat*](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) (R).
+  They both describe the analysis of a peripheral blood mononuclear cell (PBMC)
+  dataset.
+* If you have experience with such data already, checkout [the NBIS workshop on
+  single-cell sequencing data
+  analysis](https://nbisweden.github.io/workshop-scRNAseq/exercises.html) to
+  cover advanced topics such as spatial transcriptomics and trajectory
+  inference.
 
 In a special session on 07.05.2021, we will have Dr. Petra Schwalie, Dr. Tony
 Kam-Thong, and Dr. Fabian Birzele as guest speakers. They shall share their
