@@ -183,12 +183,17 @@ of action (21.05.2021).
 * Lecture #8 (30.04.2021)
    * [Anonymous post-lecture survey](https://forms.gle/NGhXKcw3iTn8Zj8VA)
    * [Recording](https://unibas.zoom.us/rec/share/CtZEGBrE7lXXDnpN0dH0jWJDextfyuD3BIyPTHNrkeSQFxPudHp_F2GqEbP2Pbnf.NPr1xtzgyt1ck2o_)
-* Lecture #9 (07.05.2021): guest lectures by Dr. Fabian Birzele, Dr. Petra
-  Schwalie, and Dr. Tony Kam-Thong, all computational biologists working in
-  drug discovery:
+* Lecture #9 (07.05.2021): guest lectures by three computational biologists
+  working in drug discovery: Dr. Fabian Birzele, Dr. Petra Schwalie, and Dr.
+  Tony Kam-Thong:
    * [Anonymous post-lecture survey](https://forms.gle/boGykAUaeofSc1Z37)
-   * Slides of Dr. Fabian Birzele, Dr. Petra Schwalie, and Dr. Tony Kam-Thong
-   * Recording
+   * Presentation by Dr. Fabian Birzele: *"Groundhog day" and what we can learn
+     from that...* ([slides](assets/2021/ModuleIV/MCBDD-2021-GuestSpeaker-FabianBirzele.pdf))
+   * Presentation by Dr. Petra Schwalie: *scRNA-Seq analysis in Cancer
+     Immunotherapy Pharma Research* ([slides](assets/2021/ModuleIV/MCBDD-2021-GuestSpeaker-PetraSchwalie.pdf))
+   * Presentation by Dr. Tony Kam-Thong: *Time Series and Dynamics Systems
+     Analysis in Drug Discovery* ([slides](assets/2021/ModuleIV/MCBDD-2021-GuestSpeaker-TonyKamThong.pdf))
+   * [Recording](https://unibas.zoom.us/rec/share/sxNgXaw0Wvw5e2AnNpoYrV4WhJf-I3i58u6yxWD236ARCidj7XJT-rOv9ImFRkbm.j5VqInaR8bnq1v-W)
 * On 14.05.2021, the Ascension Day, (*Auffahrt*), we will have no lecture.
 * Lecture #10 (21.05.2021)
    * Anonymous post-lecture survey
