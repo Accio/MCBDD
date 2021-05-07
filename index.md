@@ -183,7 +183,12 @@ of action (21.05.2021).
 * Lecture #8 (30.04.2021)
    * [Anonymous post-lecture survey](https://forms.gle/NGhXKcw3iTn8Zj8VA)
    * [Recording](https://unibas.zoom.us/rec/share/CtZEGBrE7lXXDnpN0dH0jWJDextfyuD3BIyPTHNrkeSQFxPudHp_F2GqEbP2Pbnf.NPr1xtzgyt1ck2o_)
-* Lecture #9 (21.05.2021)
+* Lecture #9 (07.05.2021): guest lectures by Dr. Fabian Birzele, Dr. Petra
+  Schwalie, and Dr. Tony Kam-Thong:
+   * [Anonymous post-lecture survey](https://forms.gle/boGykAUaeofSc1Z37)
+   * Slides of Dr. Fabian Birzele, Dr. Petra Schwalie, and Dr. Tony Kam-Thong
+   * Recording
+* Lecture #10 (21.05.2021)
    * Anonymous post-lecture survey
    * Recording
 
