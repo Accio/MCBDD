@@ -194,7 +194,7 @@ of action (21.05.2021).
    * Presentation by Dr. Tony Kam-Thong: *Time Series and Dynamics Systems
      Analyses in Drug Discovery* ([slides](assets/2021/ModuleIV/MCBDD-2021-GuestSpeaker-TonyKamThong.pdf))
    * [Recording](https://unibas.zoom.us/rec/share/sxNgXaw0Wvw5e2AnNpoYrV4WhJf-I3i58u6yxWD236ARCidj7XJT-rOv9ImFRkbm.j5VqInaR8bnq1v-W)
-* On 14.05.2021, the Ascension Day, (*Auffahrt*), we will have no lecture.
+* We will have *no* lecture on 14.05.2021, the Ascension Day (*Auffahrt*).
 * Lecture #10 (21.05.2021)
    * Anonymous post-lecture survey
    * Recording
