@@ -184,10 +184,12 @@ of action (21.05.2021).
    * [Anonymous post-lecture survey](https://forms.gle/NGhXKcw3iTn8Zj8VA)
    * [Recording](https://unibas.zoom.us/rec/share/CtZEGBrE7lXXDnpN0dH0jWJDextfyuD3BIyPTHNrkeSQFxPudHp_F2GqEbP2Pbnf.NPr1xtzgyt1ck2o_)
 * Lecture #9 (07.05.2021): guest lectures by Dr. Fabian Birzele, Dr. Petra
-  Schwalie, and Dr. Tony Kam-Thong:
+  Schwalie, and Dr. Tony Kam-Thong, all computational biologists working in
+  drug discovery:
    * [Anonymous post-lecture survey](https://forms.gle/boGykAUaeofSc1Z37)
    * Slides of Dr. Fabian Birzele, Dr. Petra Schwalie, and Dr. Tony Kam-Thong
    * Recording
+* On 14.05.2021, the Ascension Day, (*Auffahrt*), we will have no lecture.
 * Lecture #10 (21.05.2021)
    * Anonymous post-lecture survey
    * Recording
@@ -211,11 +213,6 @@ slides for links to tutorials and courses.
   cover advanced topics such as spatial transcriptomics and trajectory
   inference.
 
-In a special session on 07.05.2021, we will have Dr. Petra Schwalie, Dr. Tony
-Kam-Thong, and Dr. Fabian Birzele as guest speakers. They shall share their
-research experience in drug discovery.
-
-On 14.05.2021, the Ascension Day, (*Auffahrt*), we will have no lecture.
 
 <a name="modulev"></a>
 
@@ -226,6 +223,15 @@ identification in Module V. We will learn about how mathematical and computation
 biology contributes to biomarker identification (28.05.2021), and consider how
 to model disease progression and drug's action using integrated modelling with
 knowledge and data (04.06.2021).
+
+
+* Slides of Module V
+* Lecture #11 (28.05.2021)
+   * Anonymous post-lecture survey
+   * Recording
+* Lecture #12 (04.06.2021)
+   * Anonymous post-lecture survey
+   * Recording
 
 <a name="topics"></a>
 
