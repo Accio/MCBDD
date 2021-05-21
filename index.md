@@ -214,7 +214,7 @@ of action (21.05.2021).
 * We will have *no* lecture on 14.05.2021, the Ascension Day (*Auffahrt*).
 * Lecture #10 (21.05.2021)
    * [Anonymous post-lecture survey](https://forms.gle/3hD34b3Zm692wB1a9)
-   * Recording
+   * [Recording](https://unibas.zoom.us/rec/share/NwtHzdyrsJIyCqHcHA32zxdCj8UMnrK0vn74k0vTIr2O9tVE38q_oBIc7Y5DbcK2.pAxgdcP95iaAepXN)
 
 The offline activities of Module IV is to do single-cell RNA-seq analysis
 yourself with either Python or R. This activity is *optional*: it does not count
@@ -244,7 +244,7 @@ We consider the problem of patient stratification, enrichment, and biomarker
 identification in Module V. We will learn about how mathematical and computational
 biology contributes to biomarker identification (28.05.2021), and consider how
 to model disease progression and drug's action using integrated modelling with
-knowledge and data (04.06.2021).
+knowledge, data, and software (04.06.2021).
 
 
 * Slides of Module V
@@ -254,6 +254,7 @@ knowledge and data (04.06.2021).
 * Lecture #12 (04.06.2021)
    * Anonymous post-lecture survey
    * Recording
+
 
 <a name="topics"></a>
 
