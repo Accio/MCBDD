@@ -75,8 +75,7 @@ For end-term project work, participants will form teams of two, and work on
 either option of the project work:
 
 * Option 1: Write a target (or screening) proposal for a disease of your choice,
-  using publicly available data and tools/algorithms that we learn about to
-  support your arguments.
+  using publicly available data and your analysis to support your arguments.
 * Option 2: Write a Rmarkdown/Jupyter report analysing data from [the Drug
   Central](https://drugcentral.org/) database, raising your own scientific
   questions about drug-target associations and answering them with analysis.
