@@ -15,6 +15,7 @@ applications in drug discovery.
 
 - [Preparation](#preparation)
 - [Logistics](#logistics)
+- [Assessment](#assessment)
 - [Syllabus](#syllabus)
    - [Module Zero](#module0): Introduction
    - [Module I](#modulei): What are drug targets and where to find them?
@@ -65,17 +66,34 @@ License](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise speci
 
 All Zoom sessions are recorded and distributed among attendees.
 
-### Assessment
+<a name="assessment"></a>
+## Assessment
 
 The final note is given by offline activities (50%) and project work (50%).
 
-Participants will form teams of two and work on either option of the project
-work:
+For end-term project work, participants will form teams of two, and work on
+either option of the project work:
 
-* Option 1: Write a target (or screening) proposal for a disease of your choice, using publicly available data and tools/algorithms that we learn about to support your arguments.
-* Option 2: Write a Rmarkdown/Jupyter report analysing data from [the Drug Central](https://drugcentral.org/) database, raising your own scientific questions about drug-target associations and answering them with analysis.
+* Option 1: Write a target (or screening) proposal for a disease of your choice,
+  using publicly available data and tools/algorithms that we learn about to
+  support your arguments.
+* Option 2: Write a Rmarkdown/Jupyter report analysing data from [the Drug
+  Central](https://drugcentral.org/) database, raising your own scientific
+  questions about drug-target associations and answering them with analysis.
 
-Project grade is given both by peer review and by the lecturer.
+Once the project report is submitted, it will peer-reviewed by another group,
+which give comments and suggestions.
+
+Timelines:
+
+* Students assigning themselves in groups of two [with
+  Doodle](https://doodle.com/poll/8u475x7darx7m82m?utm_source=poll&utm_medium=link):
+  by June 1st (Monday);
+* Submission deadline: June 21th (Monday);
+* Peer review submission deadline: July 5th (Monday).
+
+Notes for the course are given when both project report and peer review are
+submitted.
 
 ## Syllabus
 
