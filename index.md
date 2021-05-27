@@ -240,16 +240,16 @@ slides for links to tutorials and courses.
 
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
-We consider the problem of patient stratification, enrichment, and biomarker
-identification in Module V. We will learn about how mathematical and computational
-biology contributes to biomarker identification (28.05.2021), and consider how
-to model disease progression and drug's action using integrated modelling with
-knowledge, data, and software (04.06.2021).
+We consider the problem of biomarker identification and causal inference in
+Module V. We will learn about how mathematical and computational biology
+contributes to biomarker identification (28.05.2021), and consider how to model
+disease progression and drug's action using integrated modelling with knowledge,
+data, and software (04.06.2021).
 
 
-* Slides of Module V
+* [Slides of Module V](assets/2021/ModuleV/MCBDD-2021-ModuleV.pdf)
 * Lecture #11 (28.05.2021)
-   * Anonymous post-lecture survey
+   * [Anonymous post-lecture survey](https://forms.gle/hWEf8UWA1hQdJdPQ7)
    * Recording
 * Lecture #12 (04.06.2021)
    * Anonymous post-lecture survey
