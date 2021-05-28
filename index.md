@@ -250,7 +250,7 @@ data, and software (04.06.2021).
 * [Slides of Module V](assets/2021/ModuleV/MCBDD-2021-ModuleV.pdf)
 * Lecture #11 (28.05.2021)
    * [Anonymous post-lecture survey](https://forms.gle/hWEf8UWA1hQdJdPQ7)
-   * Recording
+   * [Recording](https://unibas.zoom.us/rec/share/NaMRkHpXDmrAO7T5gLC5N-j_-1IpNSZvgdkWc4CFx8aISQrA8lY4fbg0FMeWevn-.Ddf_Eu1LQSUhghAj)
 * Lecture #12 (04.06.2021)
    * Anonymous post-lecture survey
    * Recording
