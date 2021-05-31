@@ -15,6 +15,7 @@ applications in drug discovery.
 
 - [Preparation](#preparation)
 - [Logistics](#logistics)
+- [Assessment](#assessment)
 - [Syllabus](#syllabus)
    - [Module Zero](#module0): Introduction
    - [Module I](#modulei): What are drug targets and where to find them?
@@ -65,17 +66,33 @@ License](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise speci
 
 All Zoom sessions are recorded and distributed among attendees.
 
-### Assessment
+<a name="assessment"></a>
+## Assessment
 
 The final note is given by offline activities (50%) and project work (50%).
 
-Participants will form teams of two and work on either option of the project
-work:
+For end-term project work, participants will form teams of two, and work on
+either option of the project work:
 
-* Option 1: Write a target (or screening) proposal for a disease of your choice, using publicly available data and tools/algorithms that we learn about to support your arguments.
-* Option 2: Write a Rmarkdown/Jupyter report analysing data from [the Drug Central](https://drugcentral.org/) database, raising your own scientific questions about drug-target associations and answering them with analysis.
+* Option 1: Write a target (or screening) proposal for a disease of your choice,
+  using publicly available data and your analysis to support your arguments.
+* Option 2: Write a Rmarkdown/Jupyter report analysing data from [the Drug
+  Central](https://drugcentral.org/) database, raising your own scientific
+  questions about drug-target associations and answering them with analysis.
 
-Project grade is given both by peer review and by the lecturer.
+Once the project report is submitted, it will peer-reviewed by another group,
+which give comments and suggestions.
+
+Timelines:
+
+* Students assigning themselves in groups of two [with
+  Doodle](https://doodle.com/poll/8u475x7darx7m82m?utm_source=poll&utm_medium=link):
+  by June 1st (Monday);
+* Submission deadline: June 21th (Monday);
+* Peer review submission deadline: July 5th (Monday).
+
+Notes for the course are given when both project report and peer review are
+submitted.
 
 ## Syllabus
 
@@ -183,9 +200,21 @@ of action (21.05.2021).
 * Lecture #8 (30.04.2021)
    * [Anonymous post-lecture survey](https://forms.gle/NGhXKcw3iTn8Zj8VA)
    * [Recording](https://unibas.zoom.us/rec/share/CtZEGBrE7lXXDnpN0dH0jWJDextfyuD3BIyPTHNrkeSQFxPudHp_F2GqEbP2Pbnf.NPr1xtzgyt1ck2o_)
-* Lecture #9 (21.05.2021)
-   * Anonymous post-lecture survey
-   * Recording
+* Lecture #9 (07.05.2021): guest lectures by three computational biologists
+  working in drug discovery: Dr. Fabian Birzele, Dr. Petra Schwalie, and Dr.
+  Tony Kam-Thong:
+   * [Anonymous post-lecture survey](https://forms.gle/boGykAUaeofSc1Z37)
+   * Presentation by Dr. Fabian Birzele: *"Groundhog day" and what we can learn
+     from that...* ([slides](assets/2021/ModuleIV/MCBDD-2021-GuestSpeaker-FabianBirzele.pdf))
+   * Presentation by Dr. Petra Schwalie: *scRNA-Seq analysis in Cancer
+     Immunotherapy Pharma Research* ([slides](assets/2021/ModuleIV/MCBDD-2021-GuestSpeaker-PetraSchwalie.pdf))
+   * Presentation by Dr. Tony Kam-Thong: *Time Series and Dynamics Systems
+     Analyses in Drug Discovery* ([slides](assets/2021/ModuleIV/MCBDD-2021-GuestSpeaker-TonyKamThong.pdf))
+   * [Recording](https://unibas.zoom.us/rec/share/sxNgXaw0Wvw5e2AnNpoYrV4WhJf-I3i58u6yxWD236ARCidj7XJT-rOv9ImFRkbm.j5VqInaR8bnq1v-W)
+* We will have *no* lecture on 14.05.2021, the Ascension Day (*Auffahrt*).
+* Lecture #10 (21.05.2021)
+   * [Anonymous post-lecture survey](https://forms.gle/3hD34b3Zm692wB1a9)
+   * [Recording](https://unibas.zoom.us/rec/share/NwtHzdyrsJIyCqHcHA32zxdCj8UMnrK0vn74k0vTIr2O9tVE38q_oBIc7Y5DbcK2.pAxgdcP95iaAepXN)
 
 The offline activities of Module IV is to do single-cell RNA-seq analysis
 yourself with either Python or R. This activity is *optional*: it does not count
@@ -206,21 +235,26 @@ slides for links to tutorials and courses.
   cover advanced topics such as spatial transcriptomics and trajectory
   inference.
 
-In a special session on 07.05.2021, we will have Dr. Petra Schwalie, Dr. Tony
-Kam-Thong, and Dr. Fabian Birzele as guest speakers. They shall share their
-research experience in drug discovery.
-
-On 14.05.2021, the Ascension Day, (*Auffahrt*), we will have no lecture.
 
 <a name="modulev"></a>
 
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
-We consider the problem of patient stratification, enrichment, and biomarker
-identification in Module V. We will learn about how mathematical and computational
-biology contributes to biomarker identification (28.05.2021), and consider how
-to model disease progression and drug's action using integrated modelling with
-knowledge and data (04.06.2021).
+We consider the problem of biomarker identification and causal inference in
+Module V. We will learn about how mathematical and computational biology
+contributes to biomarker identification (28.05.2021), and consider how to model
+disease progression and drug's action using integrated modelling with knowledge,
+data, and software (04.06.2021).
+
+
+* [Slides of Module V](assets/2021/ModuleV/MCBDD-2021-ModuleV.pdf)
+* Lecture #11 (28.05.2021)
+   * [Anonymous post-lecture survey](https://forms.gle/hWEf8UWA1hQdJdPQ7)
+   * [Recording](https://unibas.zoom.us/rec/share/NaMRkHpXDmrAO7T5gLC5N-j_-1IpNSZvgdkWc4CFx8aISQrA8lY4fbg0FMeWevn-.Ddf_Eu1LQSUhghAj)
+* Lecture #12 (04.06.2021)
+   * Anonymous post-lecture survey
+   * Recording
+
 
 <a name="topics"></a>
 
