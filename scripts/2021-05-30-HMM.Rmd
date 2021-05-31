@@ -1,0 +1,46 @@
+---
+title: "HMM-example.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Simulation
+
+You can also embed plots, for example:
+
+```{r}
+agent <- c(0.8, 0.2)
+transition <- matrix(c(0.7, 0.3, 0.2, 0.8),
+                     nrow=2, byrow=TRUE,
+                     dimnames=list(c("Fresh", "Tired"),
+                                   c("Fresh", "Tired")))
+emission <- matrix(c(0.8, 0.2, 0.4, 0.6), nrow=2, 
+                    byrow=TRUE,
+                    dimnames=list(c("Fresh", "Tired"),
+                                  c("Acceptance", "Rejection")))
+```
+
+## Stationary distribution
+
+```{r stationaryBrutalForce}
+te <- transition; for (i in 1:100)  te <- te %*% transition
+te
+```
+
+```{r}
+stationary <- function(transition) {
+  p <- diag(nrow(transition)) - t(transition)
+  A <- rbind(p, rep(1, ncol(transition)))
+  b <- c(rep(0, nrow(transition)),1)
+  res <- qr.solve(A, b)
+  attr(res, "A") <- A
+  attr(res, "b") <- b
+  return(res)
+} 
+stationary(transition)
+stationary(matrix(c(0.7, 0.2, 0.1, 0.4, 0.6, 0, 0, 1, 0),
+                  nrow=3, byrow=TRUE))
+```
