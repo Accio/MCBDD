@@ -5,6 +5,13 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(markovchain)
+library(ribiosPlot)
+library(depmixS4)
+library(ggplot2)
+library(magrittr)
+library(reshape)
+library(gridExtra)
 ```
 
 ## Simulation
@@ -36,11 +43,174 @@ stationary <- function(transition) {
   A <- rbind(p, rep(1, ncol(transition)))
   b <- c(rep(0, nrow(transition)),1)
   res <- qr.solve(A, b)
-  attr(res, "A") <- A
-  attr(res, "b") <- b
   return(res)
 } 
 stationary(transition)
 stationary(matrix(c(0.7, 0.2, 0.1, 0.4, 0.6, 0, 0, 1, 0),
                   nrow=3, byrow=TRUE))
 ```
+
+
+## An example of the Markov Model
+
+The example was elaborated in AMIDD. Data comes from https://web.stanford.edu/class/stats366/exs/HMM1.html. 
+
+```{r}
+library(markovchain)
+dnaAlp <- c("A", "C", "G", "T")
+codingTrans <- matrix(c(.300, .205, .285, .210,
+                   .322, .298, .078, .302,
+                   .248, .246, .298, .208,
+                   .177, .239, .292, .292),
+                 nrow=4, byrow=TRUE,
+                 dimnames=list(dnaAlp, dnaAlp))
+codingMarkov <- new("markovchain", 
+                transitionMatrix = codingTrans,
+                name="coding")
+set.seed(1887)
+paste0(markovchain::markovchainSequence(50, codingMarkov), collapse="")
+```
+
+We use the spectral decomposition/eigendecomposition/diagonization trick (slide 12 of http://atwallab.cshl.edu/teaching/QBII/lecture1-hmms.pdf) to calculate the probability quickly.
+
+```{r multiple20Times, fig.width=4, fig.height=4}
+codingEigen <- eigen(codingTrans)
+diags <- lapply(1:20, function(x) codingEigen$values^x)
+probs <- do.call(rbind, lapply(diags, function(ev) {
+  p <- codingEigen$vectors %*% diag(ev) %*% solve(codingEigen$vectors)
+  res <- colSums(p)/sum(colSums(p))
+  realPart <- Re(res)
+  return(realPart)
+}))
+colnames(probs) <- dnaAlp 
+{
+  compactPar()
+  matplot(probs, type="l", ylab="Probability", lty=1, xlab="Step",
+          pch=dnaAlp)
+  legend(1, .262, dnaAlp, lty=1, col=1:4, bg="transparent", bty="n")
+}
+```
+
+The diagnolization trick also provides us an intuitve explanation about the convergence speed to the stationary distribution. It turns out the convergence speed depends on the ratio of $$lambda_2/lambda_1$$, the first two eigenvalues of the transition matrix. The smaller the ratio is, the faster is the convergence. The proof is shown in Rosenthal, Jeffrey S. 1995. “Convergence Rates for Markov Chains.” SIAM Review 37 (3): 387–405.
+
+```{r}
+stationary(codingTrans)
+steadyStates(codingMarkov)
+```
+
+### Estimating Markov chain parameters
+
+
+```{r}
+sequence <- c("G", "M", "M", "G", "G", "G", "M", "M", "G", "G", "G", "G", "A")
+sequenceMatr <- createSequenceMatrix(sequence, sanitize = FALSE)
+mcFitMLE <- markovchainFit(data = sequence)
+mcFitMLE
+```
+```{r}
+mcFitBSP <- markovchainFit(data = sequence, method = "bootstrap", nboot = 5, name = "Bootstrap Mc")
+mcFitBSP
+```
+
+## An example of Hidden Markov Model
+
+The model below is too complicated for my purpose. TODO: to make a better one.
+
+```{r}
+simulate <- function(N, maxDiceVal = 6, mms, switchVal = 4){
+  diceVals <- 1:maxDiceVal
+  dadDice <- sample(diceVals, N, replace = T) + sample(diceVals, N, replace = T)
+  girlDice <- sample(diceVals, N, replace = T) + sample(diceVals, N, replace = T)
+  dadMMs <- rpois(N, mms[1])
+  girlMMs <- rpois(N, mms[2])
+  # states 
+  draws <- data.frame(state = rep(NA, N), obs = rep(NA, N), dice = rep(NA, N))
+  draws$state[1] <- "girl"
+  draws$obs <- girlMMs[1]
+  draws$dice <- girlDice[1]
+    for(k in 2:N){
+        if(draws$state[k-1] == "girl"){
+            if(draws$dice[k-1] < switchVal+1){
+                draws$state[k] <- "dad"
+                draws$obs[k] <- dadMMs[k]
+                draws$dice[k] <- dadDice[k]
+            }else{
+                draws$state[k] <- "girl"
+                draws$obs[k] <- girlMMs[k]
+                draws$dice[k] <- girlDice[k]
+            }
+        }else if(draws$state[k-1] == "dad"){
+            if(draws$dice[k-1] < switchVal+1){
+                draws$state[k] <- "girl"
+                draws$obs[k] <- girlMMs[k]
+                draws$dice[k] <- girlDice[k]
+            } else{
+                draws$state[k] <- "dad"
+                draws$obs[k] <- dadMMs[k]
+                draws$dice[k] <- dadDice[k]
+            }
+        }
+    }
+    # return
+    return(cbind(roll = 1:N, draws))
+}
+# simulate scenario
+set.seed(1887)
+N <- 100
+draws <- simulate(N, mms = c(12, 4), switchVal = 4)
+# observe results
+mycols <- c("darkmagenta", "turquoise")
+cols <- ifelse(draws$state == "alice", mycols[1], mycols[3])
+ggplot(draws, aes(x = roll, y = obs)) + geom_line()
+```
+
+```{r}
+fit.hmm <- function(draws){
+  # HMM with depmix
+  mod <- depmix(obs ~ 1, data = draws, nstates = 2, family = poisson()) # use gaussian() for normally distributed data
+  fit.mod <- fit(mod)
+  # predict the states by estimating the posterior
+  est.states <- posterior(fit.mod)
+  head(est.states)
+  # results
+  tbl <- table(est.states$state, draws$state)
+  draws$est.state.labels <- c(colnames(tbl)[which.max(tbl[1,])], colnames(tbl)[which.max(tbl[2,])])[est.states$state]
+  est.states$roll <- 1:100
+  colnames(est.states)[2:3] <- c(colnames(tbl)[which.max(tbl[1,])], colnames(tbl)[which.max(tbl[2,])])
+  hmm.post.df <- melt(est.states, measure.vars = c("dad", "girl"))
+  # print the table
+  print(table(draws[,c("state", "est.state.labels")]))
+  # return it
+  return(list(draws = draws, hmm.post.df = hmm.post.df))
+}
+hmm1 <- fit.hmm(draws)
+```
+```{r fig.width=6, fig.height=8}
+# plot output
+plot.hmm.output <- function(model.output){
+    g0 <- (ggplot(model.output$draws, aes(x = roll, y = obs)) + geom_line() +
+        theme(axis.ticks = element_blank(), axis.title.y = element_blank())) %>% ggplotGrob
+    g1 <- (ggplot(model.output$draws, aes(x = roll, y = state, fill = state, col = state)) + 
+        ##geom_bar(stat = "identity", alpha = I(0.7)) + 
+          geom_bar(stat="identity") +
+        scale_fill_manual(values = mycols, name = "State:\nPerson that\nrolled the\ndice", labels = c("dad", "girl")) +
+        scale_color_manual(values = mycols, name = "State:\nPerson that\nrolled the\ndice", labels = c("dad", "girl")) +
+        theme(axis.ticks = element_blank(), axis.text.y = element_blank()) +
+        labs(y = "Actual State")) %>% ggplotGrob
+    g2 <- (ggplot(model.output$draws, aes(x = roll, y = est.state.labels, fill = est.state.labels, col = est.state.labels)) + 
+        geom_bar(stat = "identity", alpha = I(0.7)) +
+        scale_fill_manual(values = mycols, name = "State:\nPerson that\nrolled the\ndice", labels = c("dad", "girl")) +
+        scale_color_manual(values = mycols, name = "State:\nPerson that\nrolled the\ndice", labels = c("dad", "girl")) +
+        theme(axis.ticks = element_blank(), axis.text.y = element_blank()) + 
+        labs(y = "Estimated State")) %>% ggplotGrob
+    g3 <- (ggplot(model.output$hmm.post.df, aes(x = roll, y = value, col = variable)) + geom_line() +
+        scale_color_manual(values = mycols, name = "State:\nPerson that\nrolled the\ndice", labels = c("dad", "girl")) +
+        theme(axis.ticks = element_blank(), axis.text.y = element_blank()) + 
+        labs(y = "Posterior Prob.")) %>%
+        ggplotGrob()
+    g0$widths <- g1$widths
+    return(grid.arrange(g0, g1, g2, g3, widths = 1, nrow = 4))
+}
+plot.hmm.output(hmm1)
+```
+
