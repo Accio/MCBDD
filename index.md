@@ -253,7 +253,7 @@ data, and software (04.06.2021).
    * [Recording](https://unibas.zoom.us/rec/share/NaMRkHpXDmrAO7T5gLC5N-j_-1IpNSZvgdkWc4CFx8aISQrA8lY4fbg0FMeWevn-.Ddf_Eu1LQSUhghAj)
 * Lecture #12 (04.06.2021)
    * [Anonymous post-lecture survey](https://forms.gle/x9gjpDXwrBq9fEwR8)
-   * Recording
+   * [Recording](https://unibas.zoom.us/rec/share/OBzG0Hqdac7B4mugmyKJ6Z63pMIPB44z2QD-GcAMPyijuW8QZd4erLJHYH_PC8kC.IhEgFk-EjamhJlI2)
 
 
 <a name="topics"></a>
