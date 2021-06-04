@@ -1,0 +1,38 @@
+---
+title: "DAG"
+author: "Jitao david Zhang"
+date: "04/06/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height=4, fig.width=4)
+library(ribiosPlot)
+```
+
+$$ \Large f(x) $$
+
+
+## Curse of dimensionality
+
+```{r}
+set.seed(1887)
+patient_group <- gl(2,10)
+response <- c(rnorm(10, 0), rnorm(10, -3))
+random_features_large <- matrix(rnorm(20*50000), nrow=20)
+large_cor <- cor(response, random_features_large, method="spearman")
+hist(large_cor)
+```
+
+```{r}
+largest_cor_ind <- which.max(large_cor)
+{
+  compactPar()
+  plot(random_features_large[, largest_cor_ind],
+       response,
+       bg=patient_group,pch=21,
+       xlab=sprintf("Random feature [index %d]", largest_cor_ind))
+  abline(lm(response ~ random_features_large[, largest_cor_ind]))
+}
+```
+
