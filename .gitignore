@@ -8,3 +8,4 @@ scripts/.ipynb_checkpoints
 *.html
 scripts/figure
 .Rproj.user
+.Rhistory
