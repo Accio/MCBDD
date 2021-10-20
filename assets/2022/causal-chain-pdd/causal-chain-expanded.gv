@@ -1,0 +1,25 @@
+digraph causal_chain {
+    node [shape = record,
+        style = filled,
+        fixedsize=true,
+        width=3,
+        height=0.618,
+        fontsize=14,
+        fillcolor = "lightyellow:khaki",
+        gradientangle=315,
+        fontname="Helvetica"]
+
+  c [label = "Compound treatment"]
+  t [label = "Target engagement"]
+  tr [label = "Transcriptomic changes"]
+  m [label = "Morphological changes"]
+  d [label = "Disease modification"]
+
+  c -> t
+  t -> tr
+  t -> m
+  tr -> m
+  tr -> d
+  m -> d
+
+}
