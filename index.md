@@ -1,15 +1,19 @@
 ---
 layout: default
-title: MCBDD 2021
+title: MCBDD 2022
 ---
 
 Welcome to the web page for _Mathematical and Computational Biology in Drug
 Discovery_, the course series running at the Department of Mathematics and
-Computer Science, University of Basel in the spring semester 2021.
+Computer Science, University of Basel in the spring semester 2022.
 
 The course is open to all students who wish to learn about principles and
 techniques of mathematical and computational biology as well as their
 applications in drug discovery.
+
+Find administrative details about the lecture [in the course directory of
+University of
+Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=264984).
 
 ## Table of content
 
@@ -31,8 +35,8 @@ applications in drug discovery.
 
 To prepare for the course, please (1) check that you have acquired required
 prior knowledge, (2) make sure that you can commit enough time to the course,
-(3) be aware that the lecture will take place virtually on *Zoom*, and (4) fill
-[the pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA).
+(3) note that lectures in 2022 will be in person, and (4) fill [the pre-course
+survey](https://forms.gle/1Pze3vo1c4G8aBtW7).
 
 You should foremost be familiar with the content covered by the course series
 [*Introduction to Applied Mathematics and Informatics In Drug
@@ -41,21 +45,18 @@ Discovery*](https://www.amidd.ch) that run in fall semesters.
 The MCBDD course on average requires about 4-6 hours' time each week for
 reading assignments or programming tasks.
 
-Due to the coronavirus pandemic, the MCBDD course in 2021 will take
-place online with *Zoom*. The meeting link is shared with registered
-participants via Email.
-
-Finally, to make the course useful and valuable for you, I invite you to fill
-[the pre-course survey](https://forms.gle/Eqyb75V2JNZSH3qWA). Your opinions help
-to shape the course.
+Finally, to make the course useful and valuable for you, I invite you again to
+fill [the pre-course survey](https://forms.gle/1Pze3vo1c4G8aBtW7). Your opinions
+help to shape the course.
 
 
 ## Logistics
 
 ### Time
 
-Lectures take place on Fridays between 12:15 and 14:00 on Zoom. See
-[Syllabus](#syllabus) for the topics we plan to cover.
+Lectures take place on Fridays between 12:15 and 14:00 in Seminarraum 05.002 in
+Spiegelgasse 5, near Schifflände, 4070 Basel. See [Syllabus](#syllabus) for the
+topics we plan to cover.
 
 ### Course material and licensing
 
@@ -63,8 +64,6 @@ Course material, including lecture notes, slides, and reading material, is
 shared on the course’s web site, [https://www.MCBDD.ch](https://www.MCBDD.ch),
 under the [Creative Commons Attribution-ShareAlike 4.0 Interactional
 License](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise specified.
-
-All Zoom sessions are recorded and distributed among attendees.
 
 <a name="assessment"></a>
 ## Assessment
@@ -85,11 +84,9 @@ which give comments and suggestions.
 
 Timelines:
 
-* Students assigning themselves in groups of two [with
-  Doodle](https://doodle.com/poll/8u475x7darx7m82m?utm_source=poll&utm_medium=link):
-  by June 1st (Monday);
-* Submission deadline: June 21th (Monday);
-* Peer review submission deadline: July 5th (Monday).
+* Students assigning themselves in groups of two by May 20st (Friday);
+* Submission deadline: June 20 (Monday);
+* Peer review submission deadline: July 4th (Monday).
 
 Notes for the course are given when both project report and peer review are
 submitted.
@@ -100,12 +97,11 @@ submitted.
 ### Module Zero: Introduction
 
 Module I is an introduction to mathematical and computational biology in drug
-discovery on 05.03.2021.
+discovery.
 
 * [Slides of lecture #1](assets/2021/01/MCBDD-2021-01-Intro.pdf): we covered all slides up to slide #19. The reproducible research part will be covered later.
-* [Recording](https://unibas.zoom.us/rec/share/CPcuBzEF3wOQCYTNUWvY77jbmLhzMmaKDN8SWZjFFixad-zzcJm-st9vLPcy4kC1.QfrraqDLZhCznlAQ): passcode is shared by email.
 * Offline activities (see slide page 26)
-   * Please fill the [anonymous post-lecture survey](https://forms.gle/idcFHkEQ6WDeD7Bv8). All post-lecture surveys are optional, however I encourage you to fill them because your feedback is important for me to constantly improve the course and to address your burning questions.
+   * Please fill the [anonymous post-lecture survey](). All post-lecture surveys are optional, however I encourage you to fill them because your feedback is important for me to constantly improve the course and to address your burning questions.
    * Required reading: [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
    * Optional reading: [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
 
@@ -113,9 +109,9 @@ discovery on 05.03.2021.
 
 ### Module I: What are drug targets and where to find them?
 
-This module consists of two lectures: (1) what makes a good drug target
-(12.03.2021), and (2) how to identify, assess, and validate drug targets?
-(19.03.2021).
+This module consists of two lectures: (1) what makes a good drug target , and
+(2) how to identify, assess, and validate drug targets?
+
 
 Prior to attending the courses, you can refresh your knowledge in the central
 dogma of molecular biology and in the human genome by watching the animation
@@ -124,12 +120,12 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2021/ModuleI/MCBDD-2021-ModuleI.pdf)
-* [Offline activities of Module I](https://forms.gle/7fw4crADwfYJN9hS9). Please
+* [Offline activities of Module I](). Please
   finish this and further offline activities before semester ends to get credits.
-* Lecture #2 (12.03.2021)
+* Lecture #2
   * [Anonymous post-lecture survey](https://forms.gle/vVWQAWcVHsDjuXZv6)
   * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode is shared with email.
-* Lecture #3 (19.03.2021)
+* Lecture #3
   * [Anonymous post-lecture survey](https://forms.gle/dwGBzavf7QSvyjCa6)
   *
   [Recording](https://unibas.zoom.us/rec/share/eRercRH3HqeTIGbEnd4TZmL9Uko-Upzw-LLAn5WViFKi3jelxbQQASY4MQcXBr8F.7uSslZBK0a2RxVBS):
@@ -142,18 +138,17 @@ by *WEHI* that combines an artist's impression and simulation.
 
 Module II discusses about alternatives to target-based drug discovery, in
 particular phenotypic drug discovery. It includes two lectures: (1) phenotypic
-screening with chemogenomic libraries (26.03.2021), and (2) molecular phenotypic
-screening based on gene expression (09.04.2021). We will have *no lecture* on
-02.04.2021, the Good Friday.
+screening with chemogenomic libraries, and (2) molecular phenotypic
+screening based on gene expression.
 
 * [Slides of Module II](assets/2021/ModuleII/MCBDD-2021-ModuleII.pdf)
 * [Offline activities of Module II](https://forms.gle/r7YDyw3vuGprHPnV9): The
   explanation can be found in the slides (slide number #26). Please finish the
   activities before the end of semester to get credits.
-* Lecture #4 (26.03.2021)
+* Lecture #4
     * [Anonymous post-lecture survey](https://forms.gle/td6e2e52VkLDnPLb7)
     * [Recording](https://unibas.zoom.us/rec/share/5fqwZ0xrutPXiHnq52J_0VfSJSMLJ460kMqlc1YNGebr4NU8YizEMbL-53jiCBPg.Ez7goBjsN6ZZvSC4)
-* Lecture #5 (09.04.2021)
+* Lecture #5
     * [Anonymous post-lecture survey](https://forms.gle/bYJeTqudmrjECMVz7)
     * [Recording](https://unibas.zoom.us/rec/share/t-AbbcUN7hf7srscW7Hh7-0FpNOPGDTWi8u0RICibgGHQlfgo9wD9pA-GZHaNpgY.-00-0LsJugIh3aje)
 
