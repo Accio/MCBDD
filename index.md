@@ -99,9 +99,9 @@ submitted.
 Module I is an introduction to mathematical and computational biology in drug
 discovery.
 
-* [Slides of lecture #1](assets/2021/01/MCBDD-2021-01-Intro.pdf): we covered all slides up to slide #19. The reproducible research part will be covered later.
-* Offline activities (see slide page 26)
-   * Please fill the [anonymous post-lecture survey](). All post-lecture surveys are optional, however I encourage you to fill them because your feedback is important for me to constantly improve the course and to address your burning questions.
+* [Slides of lecture #1](assets/2022/01/MCBDD-2022-01-Intro.pdf)
+* Offline activities (see slide page 22)
+   * Please fill the [anonymous post-lecture survey](https://forms.gle/D88xnUhiuBGdHFi36). All post-lecture surveys are optional, however I encourage you to fill them because your feedback is important for me to constantly improve the course and to address your burning questions.
    * Required reading: [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
    * Optional reading: [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
 
