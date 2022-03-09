@@ -120,16 +120,9 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2021/ModuleI/MCBDD-2021-ModuleI.pdf)
-* [Offline activities of Module I](). Please
-  finish this and further offline activities before semester ends to get credits.
-* Lecture #2
-  * [Anonymous post-lecture survey](https://forms.gle/vVWQAWcVHsDjuXZv6)
-  * [Recording, audio, and chat transcripts](https://unibas.zoom.us/rec/share/cGYyFPK0ZlcjinWiTih3ReGURbChgSf0mWZ3fvDDtdbuVhN6g8NhRSNwF2hn1DxX.RgB1d4KqoQEyibey): passcode is shared with email.
-* Lecture #3
-  * [Anonymous post-lecture survey](https://forms.gle/dwGBzavf7QSvyjCa6)
-  *
-  [Recording](https://unibas.zoom.us/rec/share/eRercRH3HqeTIGbEnd4TZmL9Uko-Upzw-LLAn5WViFKi3jelxbQQASY4MQcXBr8F.7uSslZBK0a2RxVBS):
-  password is shared with email.
+* [Offline activities of Module I](https://forms.gle/uRoERndPhh43xLN47) . Please
+  finish this and further offline activities before April 1st to get the
+  corresponding credit.
 
 
 <a name="moduleii"></a>
