@@ -120,8 +120,7 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2022/ModuleI/MCBDD-2022-ModuleI.pdf)
-* Anonymous post-lecture surveys of Module I
-    * [Anonymous post-lecture survey of lecture #2](https://forms.gle/c17rMJa6VhrbiN4E9)
+* [Audio recording of Lecture 3, 18.03.2022](https://drive.google.com/file/d/1DYgCDcfvHVoN_YAuqH6D4prDcMY4EZAw/view?usp=sharing)
 * [Offline activities of Module I](https://forms.gle/uRoERndPhh43xLN47). Please
   finish this and further offline activities before April 1st to get the
   corresponding credit.
