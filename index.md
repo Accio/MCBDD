@@ -125,10 +125,10 @@ by *WEHI* that combines an artist's impression and simulation.
 * [Offline activities of Module I](https://forms.gle/uRoERndPhh43xLN47). Please
   finish this and further offline activities before April 1st to get the
   corresponding credit.
-* Optional reading: Jayatunga, Madura K. P., Wen Xie, Ludwig Ruder, Ulrik
+* Optional reading: [Jayatunga, Madura K. P., Wen Xie, Ludwig Ruder, Ulrik
   Schulze, and Christoph Meier. “AI in Small-Molecule Drug Discovery: A Coming
-  Wave?” Nature Reviews Drug Discovery 21, no. 3 (February 7, 2022): 175–76.
-  https://doi.org/10.1038/d41573-022-00025-1.
+  Wave?” Nature Reviews Drug Discovery 21, no. 3 (February 7, 2022): 175–76.](https://doi.org/10.1038/d41573-022-00025-1)
+
 
 
 
