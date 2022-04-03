@@ -143,19 +143,21 @@ screening based on gene expression.
 
 * [Slides of Module II](assets/2022/ModuleII/MCBDD-2022-ModuleII.pdf)
 * Offline activities of Module II: The explanation can be found in the slides
-  (slide number #30). Please finish the activities before May the first, 2022 to
-  get credits.
+  (slide number #30). Please finish the activities and submit the results [here
+  via Google Form](https://forms.gle/bQRkLyLqLpGk3Ck28) before May the first,
+  2022 to get credits.
 
 <a name="moduleiii"></a>
 
 ### Module III: What kind of drug should we develop?
 
 Module III considers modality selection from a computational point of view. It
-includes two lectures: (1) novel small molecules and antisense oligonucleotides
-(16.04.2021), and (2) antibodies, multi-target drugs, and gene- and
-cell-therapies (23.04.2021).
+includes two lectures: (1) novel small molecules and antisense oligonucleotides,
+and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
 
 * [Slides of Module III](assets/2021/ModuleIII/MCBDD-2021-ModuleIII.pdf)
+* Offline activities of Module III: factor analysis and generative models
+  (details will follow)
 
 <a name="moduleiv"></a>
 
@@ -163,8 +165,7 @@ cell-therapies (23.04.2021).
 
 Module IV focuses on MoA inference for safety and efficacy profiles of drug
 candidates. We will mainly computational analysis and impact of single-cell
-omics data (30.04.2021), and explore the potential of proteomics to infer mode
-of action (21.05.2021).
+omics data, and explore the potential of proteomics to infer mode of action.
 
 
 * [Slides of Module IV](assets/2021/ModuleIV/MCBDD-2021-ModuleIV.pdf)
