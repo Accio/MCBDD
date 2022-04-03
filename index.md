@@ -141,10 +141,10 @@ particular phenotypic drug discovery. It includes two lectures: (1) phenotypic
 screening with chemogenomic libraries, and (2) molecular phenotypic
 screening based on gene expression.
 
-* [Slides of Module II](assets/2021/ModuleII/MCBDD-2021-ModuleII.pdf)
-* [Offline activities of Module II](): The
-  explanation can be found in the slides (slide number #26). Please finish the
-  activities before the end of semester to get credits.
+* [Slides of Module II](assets/2022/ModuleII/MCBDD-2022-ModuleII.pdf)
+* Offline activities of Module II: The explanation can be found in the slides
+  (slide number #30). Please finish the activities before May the first, 2022 to
+  get credits.
 
 <a name="moduleiii"></a>
 
