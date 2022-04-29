@@ -156,17 +156,13 @@ includes two lectures: (1) novel small molecules and antisense oligonucleotides,
 and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
 
 * [Slides of Module III](assets/2021/ModuleIII/MCBDD-2021-ModuleIII.pdf)
-* Offline activities of Module III: question-guided learning of factor analysis.
-  Use your favorite literature programming tools (i.e. Rmarkdown/Jupyter
-  Notebook) to investigate the topic of factor analysis. Use the questions below
-  to guide your learning.
-      * What is factor analysis?  What are the relationships between covariance
-	matrix, factor analysis, and principal component analysis (PCA)?
-      * What do we mean with loadings?
-      * Why factors are orthogonal to each other? What’s the consequence?
-      * How can we use factor analysis as a generative model?
-      * What is the relationship between factor analysis and autoencoder?
-      * How can you it explain factor analysis to a high-school student?
+* Offline activities of Module III: question-guided learning of factor analysis.  Use your favorite literature programming tools (i.e. Rmarkdown/Jupyter Notebook) to investigate the topic of factor analysis. Use the questions below to guide your learning.
+     * What is factor analysis?  What are the relationships between covariance matrix, factor analysis, and principal component analysis (PCA)?
+     * What do we mean with loadings?
+     * Why factors are orthogonal to each other? What’s the consequence?
+     * How can we use factor analysis as a generative model?
+     * What is the relationship between factor analysis and autoencoder?
+     * How can you it explain factor analysis to a high-school student?
 
 
 <a name="moduleiv"></a>
