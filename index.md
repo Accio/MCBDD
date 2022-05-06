@@ -175,7 +175,7 @@ candidates. We will mainly computational analysis and impact of single-cell
 omics data, and explore the potential of proteomics to infer mode of action.
 
 
-* [Slides of Module IV](assets/2021/ModuleIV/MCBDD-2021-ModuleIV.pdf)
+* [Slides of Module IV](assets/2022/ModuleIV/MCBDD-2022-ModuleIV.pdf)
 
 The offline activities of Module IV is to do single-cell RNA-seq analysis
 yourself with either Python or R. This activity is *optional*: it does not count
