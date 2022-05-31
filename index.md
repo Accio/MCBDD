@@ -66,6 +66,7 @@ under the [Creative Commons Attribution-ShareAlike 4.0 Interactional
 License](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise specified.
 
 <a name="assessment"></a>
+
 ## Assessment
 
 The final note is given by offline activities (50%) and project work (50%).
@@ -84,8 +85,8 @@ which give comments and suggestions.
 
 Timelines:
 
-* Students assigning themselves in groups of two by May 20st (Friday);
-* Submission deadline: June 20 (Monday);
+* Students assigning themselves in groups of two by June 4th (Friday);
+* Submission deadline: June 27 (Monday);
 * Peer review submission deadline: July 4th (Monday).
 
 Notes for the course are given when both project report and peer review are
@@ -130,8 +131,6 @@ by *WEHI* that combines an artist's impression and simulation.
   Wave?” Nature Reviews Drug Discovery 21, no. 3 (February 7, 2022): 175–76.](https://doi.org/10.1038/d41573-022-00025-1)
 
 
-
-
 <a name="moduleii"></a>
 
 ### Module II: What can we do if there are no good targets?
@@ -165,6 +164,7 @@ and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
     * What is the relationship between factor analysis and autoencoder?
     * How can you it explain factor analysis to a high-school student?
 
+Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/PcFvPcGPXrTnDScW9) by *June 18th, 2022*.
 
 <a name="moduleiv"></a>
 
@@ -202,13 +202,11 @@ slides for links to tutorials and courses.
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
 We consider the problem of biomarker identification and causal inference in
-Module V. We will learn about how mathematical and computational biology
-contributes to biomarker identification (28.05.2021), and consider how to model
-disease progression and drug's action using integrated modelling with knowledge,
-data, and software (04.06.2021).
-
+Module V.
 
 * [Slides of Module V](assets/2021/ModuleV/MCBDD-2021-ModuleV.pdf)
+
+There is no offline activity of Module V.
 
 <a name="topics"></a>
 
