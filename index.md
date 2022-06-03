@@ -71,8 +71,11 @@ License](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise speci
 
 The final note is given by offline activities (50%) and project work (50%).
 
-For end-term project work, participants will form teams of two, and work on
-either option of the project work:
+For end-term project work, participants will self-organize and form teams of
+two. In exceptional cases where forming a team is not feasible (i.e. due to
+remote learning), an individual contribution is possible.
+
+The teams work on either option of the project work of their choice:
 
 * Option 1: Write a target (or screening) proposal for a disease of your choice,
   using publicly available data and your analysis to support your arguments.
@@ -85,7 +88,7 @@ which give comments and suggestions.
 
 Timelines:
 
-* Students assigning themselves in groups of two by June 4th (Friday);
+* Students self-organize themselves in groups of two, and let David know per Email.
 * Submission deadline: June 27 (Monday);
 * Peer review submission deadline: July 4th (Monday).
 
@@ -201,10 +204,9 @@ slides for links to tutorials and courses.
 
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
-We consider the problem of biomarker identification and causal inference in
-Module V.
+We consider the problem of causal inference in Module V.
 
-* [Slides of Module V](assets/2021/ModuleV/MCBDD-2021-ModuleV.pdf)
+* [Slides of Module V](assets/2022/ModuleV/MCBDD-2022-ModuleV.pdf)
 
 There is no offline activity of Module V.
 
