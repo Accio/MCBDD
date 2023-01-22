@@ -1,11 +1,11 @@
 ---
 layout: default
-title: MCBDD 2022
+title: MCBDD 2023
 ---
 
 Welcome to the web page for _Mathematical and Computational Biology in Drug
 Discovery_, the course series running at the Department of Mathematics and
-Computer Science, University of Basel in the spring semester 2022.
+Computer Science, University of Basel in the spring semester 2023.
 
 The course is open to all students who wish to learn about principles and
 techniques of mathematical and computational biology as well as their
@@ -13,12 +13,12 @@ applications in drug discovery.
 
 Find administrative details about the lecture [in the course directory of
 University of
-Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=264984).
+Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=272329).
 
 ## Table of content
 
 - [Preparation](#preparation)
-- [Logistics](#logistics)
+- [Overview](#overview)
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
    - [Module Zero](#module0): Introduction
@@ -27,7 +27,6 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=264984).
    - [Module III](#moduleiii): What kind of drug should we develop?
    - [Module IV](#moduleiv): What efficacy and safety profiles can we expect?
    - [Module V](#modulev): For which patients will the drug work and how does it work, *really*?
-   - [Topics that we shall discuss](#topics)
 - [Contact](#contact)
 
 
@@ -35,8 +34,8 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=264984).
 
 To prepare for the course, please (1) check that you have acquired required
 prior knowledge, (2) make sure that you can commit enough time to the course,
-(3) note that lectures in 2022 will be in person, and (4) fill [the pre-course
-survey](https://forms.gle/1Pze3vo1c4G8aBtW7).
+(3) note that lectures will be in person, and (4) fill [the pre-course
+survey](https://forms.gle/LEUcCdhEpXdD7VVu6).
 
 You should foremost be familiar with the content covered by the course series
 [*Introduction to Applied Mathematics and Informatics In Drug
@@ -46,17 +45,45 @@ The MCBDD course on average requires about 4-6 hours' time each week for
 reading assignments or programming tasks.
 
 Finally, to make the course useful and valuable for you, I invite you again to
-fill [the pre-course survey](https://forms.gle/1Pze3vo1c4G8aBtW7). Your opinions
+fill [the pre-course survey](https://forms.gle/LEUcCdhEpXdD7VVu6). Your opinions
 help to shape the course.
 
 
-## Logistics
+## Overview
 
 ### Time
 
 Lectures take place on Fridays between 12:15 and 14:00 in Seminarraum 05.002 in
 Spiegelgasse 5, near Schifflände, 4070 Basel. See [Syllabus](#syllabus) for the
 topics we plan to cover.
+
+<a name="topics"></a>
+
+### Topics that we shall discuss
+
+We mainly discuss following topics from biology
+
+* Genetics and population genetics
+* Genomics and comparative genomics
+* Transcriptomics and proteomics
+* Chemical biology
+* Functional genomics
+* Antisense oligonucleotides and antibodies
+* Pharmacokinetics and pharmacodynamics
+
+We mainly discuss applications of following mathematical and computational
+topics:
+
+* Reproducible research tools, such as git, Snakemake/NextFlow, conda, etc.
+* Linear models and generalised linear models
+* Inference methods, such as the Expectation-Maximization (EM) algorithm, Hidden
+  Markov Models (HMMs), clustering algorithms, Monte-Carlo methods, and
+  variational methods
+* Generative models
+* Gene network inference
+* Machine learning, deep learning, and Gaussian Process
+* Mathematical modelling
+
 
 ### Course material and licensing
 
@@ -69,38 +96,14 @@ License](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise speci
 
 ## Assessment
 
-The final note is given by offline activities (50%) and project work (50%).
-
-For end-term project work, participants will self-organize and form teams of
-two. In exceptional cases where forming a team is not feasible (i.e. due to
-remote learning), an individual contribution is possible.
-
-The teams work on either option of the project work of their choice:
-
-* Option 1: Write a target (or screening) proposal for a disease of your choice,
-  using publicly available data and your analysis to support your arguments.
-* Option 2: Write a Rmarkdown/Jupyter report analysing data from [the Drug
-  Central](https://drugcentral.org/) database, raising your own scientific
-  questions about drug-target associations and answering them with analysis.
-
-Once the project report is submitted, it will peer-reviewed by another group,
-which give comments and suggestions.
-
-Timelines:
-
-* Students self-organize themselves in groups of two, and let David know per Email.
-* Submission deadline: June 27 (Monday);
-* Peer review submission deadline: July 4th (Monday).
-
-Notes for the course are given when both project report and peer review are
-submitted.
+The final grade is given by participation (50%) and offline activities (50%).
 
 ## Syllabus
 
 <a name="module0"></a>
 ### Module Zero: Introduction
 
-Module I is an introduction to mathematical and computational biology in drug
+Module Zero is an introduction to mathematical and computational biology in drug
 discovery.
 
 * [Slides of lecture #1](assets/2022/01/MCBDD-2022-01-Intro.pdf)
@@ -124,8 +127,6 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2022/ModuleI/MCBDD-2022-ModuleI.pdf)
-* [Audio recording of Lecture 3,
-  18.03.2022](https://drive.google.com/file/d/1DYgCDcfvHVoN_YAuqH6D4prDcMY4EZAw/view?usp=sharing)
 * [Offline activities of Module I](https://forms.gle/uRoERndPhh43xLN47). Please
   finish this and further offline activities before April 1st to get the
   corresponding credit.
@@ -146,8 +147,7 @@ screening based on gene expression.
 * [Slides of Module II](assets/2022/ModuleII/MCBDD-2022-ModuleII.pdf)
 * Offline activities of Module II: The explanation can be found in the slides
   (slide number #30). Please finish the activities and submit the results [here
-  via Google Form](https://forms.gle/bQRkLyLqLpGk3Ck28) before May the first,
-  2022 to get credits.
+  via Google Form](https://forms.gle/bQRkLyLqLpGk3Ck28) to get credits.
 
 <a name="moduleiii"></a>
 
@@ -167,7 +167,7 @@ and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
     * What is the relationship between factor analysis and autoencoder?
     * How can you it explain factor analysis to a high-school student?
 
-Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/PcFvPcGPXrTnDScW9) by *June 18th, 2022*.
+Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/PcFvPcGPXrTnDScW9).
 
 <a name="moduleiv"></a>
 
@@ -209,33 +209,6 @@ We consider the problem of causal inference in Module V.
 * [Slides of Module V](assets/2022/ModuleV/MCBDD-2022-ModuleV.pdf)
 
 There is no offline activity of Module V.
-
-<a name="topics"></a>
-
-### Topics that we shall discuss
-
-We mainly discuss following topics from biology
-
-* Genetics and population genetics
-* Genomics and comparative genomics
-* Transcriptomics and proteomics
-* Chemical biology
-* Functional genomics
-* Antisense oligonucleotides and antibodies
-* Pharmacokinetics and pharmacodynamics
-
-We mainly discuss applications of following mathematical and computational
-topics:
-
-* Reproducible research tools, such as git, Snakemake/NextFlow, conda, etc.
-* Linear models and generalised linear models
-* Inference methods, such as the Expectation-Maximization (EM) algorithm, Hidden
-  Markov Models (HMMs), clustering algorithms, Monte-Carlo methods, and
-  variational methods
-* Generative models
-* Gene network inference
-* Machine learning, deep learning, and Gaussian Process
-* Mathematical modelling
 
 ## Contact
 
