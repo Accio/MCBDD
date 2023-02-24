@@ -106,11 +106,8 @@ The final grade is given by participation (50%) and offline activities (50%).
 Module Zero is an introduction to mathematical and computational biology in drug
 discovery.
 
-* [Slides of lecture #1](assets/2022/01/MCBDD-2022-01-Intro.pdf)
-* Offline activities (see slide page 22)
-   * Please fill the [anonymous post-lecture survey](https://forms.gle/D88xnUhiuBGdHFi36). All post-lecture surveys are optional, however I encourage you to fill them because your feedback is important for me to constantly improve the course and to address your burning questions.
-   * Required reading: [Emmerich *et al.*, Nature Reviews Drug Discovery, 2021](assets/2021/01/Emmerich-NRDD-2021-target-assessment.pdf)
-   * Optional reading: [Jones *et al.*, Science, 2021](assets/2021/01/Jones-Science-2021-human-genome-20years.pdf)
+* [Slides of lecture #1](assets/2023/ModuleZero/MCBDD-2023-01-Intro.pdf)
+* Offline activities: see slide page 20
 
 <a name="modulei"></a>
 
