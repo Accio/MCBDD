@@ -116,10 +116,6 @@ discovery.
 This module consists of two lectures: (1) what makes a good drug target , and
 (2) how to identify, assess, and validate drug targets?
 
-**Please note that the lecture on March 3rd takes place, exceptionally, via
-Zoom**. Join the [Zoom meeting](https://roche.zoom.us/j/97811605201) here.
-Passcode: 680047.
-
 Prior to attending the courses, you can refresh your knowledge in the central
 dogma of molecular biology and in the human genome by watching the animation
 film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
