@@ -135,8 +135,7 @@ Module II discusses about alternatives to target-based drug discovery, in
 particular phenotypic drug discovery. It includes two lectures: (1) phenotypic screening with chemogenomic libraries, and (2) molecular phenotypic screening based on gene expression.
 
 * [Slides of Module II](assets/2023/ModuleII/MCBDD-2023-ModuleII.pdf)
-* Offline activities of Module II: The explanation can be found in the slides
-  (slide number #27). Please finish the activities and submit the results [here
+* Offline activities of Module II: The explanation can be found in the slidesr, see *slide number #27*. Please finish the activities and submit the results [here
   via Google Form](https://forms.gle/aVBpxMy3kj2AM5vU8) before May the first to get credits.
 
 <a name="moduleiii"></a>
