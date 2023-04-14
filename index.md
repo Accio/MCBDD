@@ -146,7 +146,7 @@ Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) novel small molecules and antisense oligonucleotides,
 and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
 
-* [Slides of Module III](assets/2021/ModuleIII/MCBDD-2021-ModuleIII.pdf)
+* [Slides of Module III](assets/2023/ModuleIII/MCBDD-2023-ModuleIII.pdf)
 * Offline activities of Module III: question-guided learning of factor analysis.  Use your favorite literature programming tools (i.e. Rmarkdown/Jupyter Notebook) to investigate the topic of factor analysis. Use the questions below to guide your learning.
     * What is factor analysis?
     * What are the relationships between covariance matrix, factor analysis, and principal component analysis (PCA)?
@@ -156,7 +156,7 @@ and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
     * What is the relationship between factor analysis and autoencoder?
     * How can you it explain factor analysis to a high-school student?
 
-Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/PcFvPcGPXrTnDScW9).
+Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/Zm4A1LqHm3iyDoVCA).
 
 <a name="moduleiv"></a>
 
