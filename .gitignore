@@ -10,3 +10,4 @@ scripts/figure
 .Rproj.user
 .Rhistory
 .ipynb_checkpoints
+*.gz
