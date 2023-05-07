@@ -137,6 +137,7 @@ particular phenotypic drug discovery. It includes two lectures: (1) phenotypic s
 * [Slides of Module II](assets/2023/ModuleII/MCBDD-2023-ModuleII.pdf)
 * Offline activities of Module II: The explanation can be found in the slidesr, see *slide number #27*. Please finish the activities and submit the results [here
   via Google Form](https://forms.gle/aVBpxMy3kj2AM5vU8) before May the first to get credits.
+	* [Here](https://github.com/Accio/MCBDD/blob/main/assets/2023/scripts/202305-MCBDD-ModuleII-offline.ipynb) is a reference solution in a Jupyter Notebook
 
 <a name="moduleiii"></a>
 
@@ -167,7 +168,7 @@ candidates. We will mainly computational analysis and impact of single-cell
 omics data, and explore the potential of proteomics to infer mode of action.
 
 
-* [Slides of Module IV](assets/2022/ModuleIV/MCBDD-2022-ModuleIV.pdf)
+* [Slides of Module IV](assets/2023/ModuleIV/MCBDD-2023-ModuleIV.pdf)
 
 The offline activities of Module IV is to do single-cell RNA-seq analysis
 yourself with either Python or R. This activity is *optional*: it does not count
