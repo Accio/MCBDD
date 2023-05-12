@@ -198,7 +198,7 @@ In module V, we will consider entry-into human and clinical studies from the per
 
 * [Slides of Module V](assets/2023/ModuleV/MCBDD-2023-ModuleV.pdf)
 
-In May 2023, FDA published a discussion paper titled [*Using Artificial Intelligence and Machine Learning in the Development of Drug and Biological Products*](Using Artificial Intelligence and Machine Learning in the Development of Drug and Biological Products)([PDF](assets/2023/ModuleV/AIML-Discussion-Paper-05-05-23.pdf)). As offline activity of Module V, please read the paper. We will have a discussion in the last lecture of the semester.
+In May 2023, FDA published a discussion paper titled [*Using Artificial Intelligence and Machine Learning in the Development of Drug and Biological Products*](https://www.fda.gov/media/167973/download) ([PDF](assets/2023/ModuleV/AIML-Discussion-Paper-05-05-23.pdf). As offline activity of Module V, please read the paper. We will have a discussion in the last lecture of the semester.
 
 ## Contact
 
