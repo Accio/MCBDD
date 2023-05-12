@@ -194,11 +194,11 @@ slides for links to tutorials and courses.
 
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
-We consider the problem of causal inference in Module V.
+In module V, we will consider entry-into human and clinical studies from the perspective of PK/PD modelling, biomarker, and causal inference.
 
-* [Slides of Module V](assets/2022/ModuleV/MCBDD-2022-ModuleV.pdf)
+* [Slides of Module V](assets/2023/ModuleV/MCBDD-2023-ModuleV.pdf)
 
-There is no offline activity of Module V.
+In May 2023, FDA published a discussion paper titled [*Using Artificial Intelligence and Machine Learning in the Development of Drug and Biological Products*](Using Artificial Intelligence and Machine Learning in the Development of Drug and Biological Products)([PDF](assets/2023/ModuleV/AIML-Discussion-Paper-05-05-23.pdf)). As offline activity of Module V, please read the paper. We will have a discussion in the last lecture of the semester.
 
 ## Contact
 
