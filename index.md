@@ -100,7 +100,7 @@ The final grade is given by participation (50%) and offline activities (50%).
 Module Zero is an introduction to mathematical and computational biology in drug
 discovery.
 
-* [Slides of lecture #1](assets/2024/MCBDD-2023-01-Intro.pdf)
+* [Slides of lecture #1](assets/2024/MCBDD-2024-01-Intro.pdf)
 * Offline activities: see slide page 15.
 
 <a name="modulei"></a>
