@@ -12,7 +12,7 @@ techniques of mathematical and computational biology as well as their
 applications in drug discovery.
 
 Find administrative details about the lecture [in the course directory of
-University of Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=272329).
+University of Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=283368).
 
 ## Table of content
 
