@@ -1,19 +1,18 @@
 ---
 layout: default
-title: MCBDD 2023
+title: MCBDD 2024
 ---
 
 Welcome to the web page for _Mathematical and Computational Biology in Drug
 Discovery_, the course series running at the Department of Mathematics and
-Computer Science, University of Basel in the spring semester 2023.
+Computer Science, University of Basel in the spring semester 2024.
 
 The course is open to all students who wish to learn about principles and
 techniques of mathematical and computational biology as well as their
 applications in drug discovery.
 
 Find administrative details about the lecture [in the course directory of
-University of
-Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=272329).
+University of Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=272329).
 
 ## Table of content
 
@@ -35,19 +34,14 @@ Basel](https://vorlesungsverzeichnis.unibas.ch/en/semester-planning?id=272329).
 To prepare for the course, please (1) check that you have acquired required
 prior knowledge, (2) make sure that you can commit enough time to the course,
 (3) note that lectures will be in person, and (4) fill [the pre-course
-survey](https://forms.gle/LEUcCdhEpXdD7VVu6).
+survey](https://forms.gle/xQwbAa4GFtnrqzuP7).
 
 You should foremost be familiar with the content covered by the course series
 [*Introduction to Applied Mathematics and Informatics In Drug
 Discovery*](https://www.amidd.ch) that run in fall semesters.
 
-The MCBDD course on average requires about 4-6 hours' time each week for
+The MCBDD course on average requires about 2-3 hours' time each week for
 reading assignments or programming tasks.
-
-Finally, to make the course useful and valuable for you, I invite you again to
-fill [the pre-course survey](https://forms.gle/LEUcCdhEpXdD7VVu6). Your opinions
-help to shape the course.
-
 
 ## Overview
 
@@ -106,8 +100,8 @@ The final grade is given by participation (50%) and offline activities (50%).
 Module Zero is an introduction to mathematical and computational biology in drug
 discovery.
 
-* [Slides of lecture #1](assets/2023/ModuleZero/MCBDD-2023-01-Intro.pdf)
-* Offline activities: see slide page 20
+* [Slides of lecture #1](assets/2024/MCBDD-2023-01-Intro.pdf)
+* Offline activities: see slide page 15.
 
 <a name="modulei"></a>
 

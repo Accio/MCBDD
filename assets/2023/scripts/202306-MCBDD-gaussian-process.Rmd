@@ -1,0 +1,215 @@
+---
+title: "An example of Gaussian Process for time-series data"
+author: "Jitao David Zhang"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output:
+  html_document:
+    df_print: paged
+    theme: spacelab
+    mathjax: default
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+  pdf_document:
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+editor_options: 
+  chunk_output_type: inline
+params:
+  echo: yes
+  relative: FALSE
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.height=6, fig.width=6)
+library(ribiosUtils)
+library(ribiosIO)
+library(ribiosPlot)
+library(openxlsx)
+library(tidyverse)
+library(ggplot2)
+library(R2jags)
+library(runjags)
+library(tidyverse)
+library(tidybayes)
+library(fields)
+library(mvtnorm)
+theme_set(theme_light(base_size=13))
+```
+
+# Background
+
+We explain how to use Gaussian Process to model time-series data.
+
+# Executive summary
+
+# Analysis
+
+## Simulating data
+
+```{r}
+set.seed(1887)
+dates <- sample(1:12, 8) %>% sort
+scale <- 100
+reldates <- dates/scale
+d <- fields::rdist(reldates) ## matrix of distance
+phi <- 5 ## tuning the autocorrelation
+k <- exp(-(phi^2)*(d^2))
+
+plot(d[,1], k[,1], 
+     type = "l",
+     xlab = "date difference (relative to the duration)",
+     ylab = "autocorrelation")
+```
+
+```{r simulating}
+set.seed(1887)
+sigma_y <- 0.1
+eps <- rnorm(length(dates), sigma_y)
+sigma_g <- 1
+g <- mvtnorm::rmvnorm(1, sigma=(sigma_g)^2 * k) 
+y <- c(g) + eps
+dat <- tibble(dates = dates,
+             reldates = reldates,
+             y = y, 
+             gp = c(g))
+
+ggplot(dat, aes(x = dates, y = y)) +
+  geom_point(aes(colour = "Simulated Data")) +
+  geom_line(aes(x = dates, y = gp, colour = "Gaussian Process")) +
+  labs(colour = "")
+```
+
+```{r}
+gp_model <- '
+model{
+
+  gp ~ dmnorm(mu,Sigma.inv)
+  Sigma.inv <- inverse(Sigma)
+  
+  for(i in 1:n_obs)
+  {
+    mu[i] <- 0
+    Sigma[i,i] <- sigma_g^2 + 0.00001
+    for(j in (i+1):n_obs) {
+    Sigma[i,j] <- sigma_g^2*exp(-(phi^2)*(d[i,j]^2))
+    Sigma[j,i] <- Sigma[i,j]
+    }
+      
+    y[i]~dnorm(gp[i],sigma_y^-2)
+  }
+  
+  sigma_g ~ dt(0,10^-2,1)T(0,)
+  phi ~ dt(0,4^-2,1)T(0,)
+  sigma_y ~ dt(0,10^-2,1)T(0,)
+}
+'
+```
+
+```{r}
+reldates <- dat %>% pull(reldates)
+y <- dat %>% pull(y)
+n_obs <- length(reldates)
+dist <- rdist(reldates) 
+
+
+## The required data
+jags_data <- list(y = y,
+                  n_obs=n_obs,
+                  d = d) 
+
+## parameters to save
+jags_pars <- c("sigma_g",
+               "phi",
+               "sigma_y")
+
+##run the model
+mod <- jags(data = jags_data, 
+            parameters.to.save=jags_pars,
+            model.file = textConnection(gp_model),
+            n.iter = 5000,
+            n.burnin = 1000,
+            n.thin = 4)
+
+##create an object containing the posterior samples
+m <- mod$BUGSoutput$sims.matrix
+```
+
+```{r}
+par_dat <- m %>% spread_draws(sigma_g,phi, sigma_y)
+ggplot(par_dat, aes(x = sigma_g)) +
+  stat_halfeye() +
+  geom_vline(data = tibble(sigma_g), aes(xintercept = sigma_g, colour = "True value"))+
+  labs(colour = "")
+```
+
+```{r}
+ggplot(par_dat, aes(x = phi)) +
+  stat_halfeye() +
+  geom_vline(data = tibble(phi), aes(xintercept = phi, colour = "True value"))+
+  labs(colour = "")
+```
+
+```{r}
+ggplot(par_dat, aes(x = sigma_y)) +
+  stat_halfeye() +
+  geom_vline(data = tibble(sigma_y), aes(xintercept = sigma_y, colour = "True value"))+
+  labs(colour = "")
+```
+
+```{r}
+n_pred <- 50 # number of predictions
+reldates_star <- seq(min(reldates), max(reldates), length.out = n_pred) # new x values
+
+par_est<- par_dat %>% 
+                 mean_qi(sigma_g, phi, sigma_y) # posterior estimate for pars
+
+
+Sigma <-  par_est$sigma_y*2 * diag(n_obs) + par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(reldates,reldates)^2)
+Sigma_star <- par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(reldates_star,reldates)^2)
+Sigma_star_star <- par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(reldates_star,reldates_star)^2)
+
+```
+
+```{r}
+pred_mean <- Sigma_star %*% solve(Sigma, y)
+pred_var <- Sigma_star_star - Sigma_star %*% solve(Sigma, t(Sigma_star))
+
+pred_res <- tibble(pred_mean = pred_mean, 
+              dates = reldates_star*scale,
+              lwr_95 = pred_mean - 1.96 * sqrt(diag(pred_var)), 
+              upr_95 = pred_mean + 1.96 * sqrt(diag(pred_var)))
+
+```
+
+```{r}
+ggplot(pred_res, aes(x = dates, y = pred_mean)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = lwr_95, ymax = upr_95), alpha = 0.3) +
+  geom_point(data = dat, aes(x = dates, y = y), alpha = 0.2) +
+  geom_line(data = dat, aes(x = dates, y = gp, colour = "true GP")) +
+  labs(y = "y", colour = "", fill = "") +
+  theme_bw() 
+```
+
+# Acknowledgment
+
+The tutorial follows [the blog post by Niamh Cahill](https://www.niamhcahill.com/post/gp_tutorial/).
+
+# Session information
+
+```{r bedaInfo}
+bedaInfo()
+```
+
+```{r sessionInfo}
+sessionInfo()
+```
+
+# Appendix
