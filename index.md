@@ -116,10 +116,7 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 *yourgenome*, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
 by *WEHI* that combines an artist's impression and simulation.
 
-* [Slides of Module I](assets/2023/ModuleI/MCBDD-2023-ModuleI.pdf)
-* [Offline activities of Module I](https://forms.gle/HNPvo9gA6uLhidAT7). Please
-  finish this and further offline activities before April 1st to get the
-  corresponding credit.
+* [Slides of Module I](assets/2024/MCBDD-2024-ModuleI.pdf)
 
 <a name="moduleii"></a>
 
