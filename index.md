@@ -101,7 +101,7 @@ Module Zero is an introduction to mathematical and computational biology in drug
 discovery.
 
 * [Slides of lecture #1](assets/2024/MCBDD-2024-01-Intro.pdf)
-* Offline activities: see slide page 15.
+* Offline activities: see slides 15.
 
 <a name="modulei"></a>
 
@@ -117,6 +117,7 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 by *WEHI* that combines an artist's impression and simulation.
 
 * [Slides of Module I](assets/2024/MCBDD-2024-ModuleI.pdf)
+* Offline activities: see slides 41-43. Submit your results with [this Google Form](https://forms.gle/9jXKKWMh1iRmahyq6) until Friday, March 29, 2024.
 
 <a name="moduleii"></a>
 
