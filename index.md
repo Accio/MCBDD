@@ -124,11 +124,13 @@ by *WEHI* that combines an artist's impression and simulation.
 ### Module II: What can we do if there are no good targets?
 
 Module II discusses about alternatives to target-based drug discovery, in
-particular phenotypic drug discovery. It includes two lectures: (1) phenotypic screening with chemogenomic libraries, and (2) molecular phenotypic screening based on gene expression.
+particular phenotypic drug discovery. It includes two lectures: (1) phenotypic
+screening with chemogenomic libraries, and (2) molecular phenotypic screening
+based on gene expression.
 
-* [Slides of Module II](assets/2023/ModuleII/MCBDD-2023-ModuleII.pdf)
-* Offline activities of Module II: The explanation can be found in the slidesr, see *slide number #27*. Please finish the activities and submit the results [here
-  via Google Form](https://forms.gle/aVBpxMy3kj2AM5vU8) before May the first to get credits.
+* [Slides of Module II](assets/2024/MCBDD-2024-ModuleII.pdf)
+* Offline activities of Module II: The explanation can be found in the slides: See *slide number #26*. Please finish the activities and submit the results [here
+  via Google Form](https://forms.gle/uGVbMc5XcrKfRc9w8) before May the first to get credits.
 	* [Here](https://github.com/Accio/MCBDD/blob/main/assets/2023/scripts/202305-MCBDD-ModuleII-offline.ipynb) is a reference solution in a Jupyter Notebook
 
 <a name="moduleiii"></a>
