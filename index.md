@@ -164,25 +164,7 @@ omics data, and explore the potential of proteomics to infer mode of action.
 
 * [Slides of Module IV](assets/2023/ModuleIV/MCBDD-2023-ModuleIV.pdf)
 
-The offline activities of Module IV is to do single-cell RNA-seq analysis
-yourself with either Python or R. This activity is *optional*: it does not count
-to the final grade. I recommend you doing it because you can get first-hand
-experience analysing high-dimensional, sparse, and noisy biological data. See
-slides for links to tutorials and courses.
-
-* If you are new to the topic of single-cell RNA sequencing, please follow the
-  [PBMC tutorial of
-  *Scanpy*](https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html)
-  (python) or the [PBMC tutorial of
-  *Seurat*](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) (R).
-  They both describe the analysis of a peripheral blood mononuclear cell (PBMC)
-  dataset.
-* If you have experience with such data already, checkout [the NBIS workshop on
-  single-cell sequencing data
-  analysis](https://nbisweden.github.io/workshop-scRNAseq/exercises.html) to
-  cover advanced topics such as spatial transcriptomics and trajectory
-  inference.
-
+The offline activities of Module IV is to read [*Foiling deadly prions*](assets/2024/Wadman-Science-2024-Foiling-deadly-prions.pdf), a news article by Meredith Wadman published in Science 2024. It introduces an ongoing clinical trial to test the efficacy of a new drug to remove prions and the context.
 
 <a name="modulev"></a>
 
