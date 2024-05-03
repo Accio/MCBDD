@@ -141,7 +141,7 @@ Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) novel small molecules and antisense oligonucleotides,
 and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
 
-* [Slides of Module III](assets/2023/ModuleIII/MCBDD-2023-ModuleIII.pdf)
+* [Slides of Module III](assets/2024/MCBDD-2024-ModuleIII.pdf)
 * Offline activities of Module III: question-guided learning of factor analysis.  Use your favorite literature programming tools (i.e. Rmarkdown/Jupyter Notebook) to investigate the topic of factor analysis. Use the questions below to guide your learning.
     * What is factor analysis?
     * What are the relationships between covariance matrix, factor analysis, and principal component analysis (PCA)?
@@ -151,7 +151,7 @@ and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
     * What is the relationship between factor analysis and autoencoder?
     * How can you it explain factor analysis to a high-school student?
 
-Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/Zm4A1LqHm3iyDoVCA).
+Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/CN8PBuUSiLrSV13z6). Please finish the assignment by May 31st, Friday, in order to get the credit.
 
 <a name="moduleiv"></a>
 
@@ -162,7 +162,7 @@ candidates. We will mainly computational analysis and impact of single-cell
 omics data, and explore the potential of proteomics to infer mode of action.
 
 
-* [Slides of Module IV](assets/2023/ModuleIV/MCBDD-2023-ModuleIV.pdf)
+* [Slides of Module IV](assets/2024/MCBDD-2024-ModuleIV.pdf)
 
 The offline activities of Module IV is to read [*Foiling deadly prions*](assets/2024/Wadman-Science-2024-Foiling-deadly-prions.pdf), a news article by Meredith Wadman published in Science 2024. It introduces an ongoing clinical trial to test the efficacy of a new drug to remove prions and the context.
 
