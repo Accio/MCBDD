@@ -163,11 +163,11 @@ omics data, and explore the potential of proteomics to infer mode of action.
 
 
 * [Slides of Module IV](assets/2024/MCBDD-2024-ModuleIV.pdf)
-* Offline activities of Module IV: Listen to the talk [Lab in a Loop: AI to
+* Offline activities of Module IV: Watch the recorded talk [Lab in a Loop: AI to
 Transform Drug Discovery and
 Development](https://www.nvidia.com/en-us/on-demand/session/gtc24-s62281/?playlistId=playList-63333c3f-f2a9-4906-8ad4-bf240bf57aa2)
 by Aviv Regev, Head of Genentech Research and Early Development, Genentech (part
-of the Roche Group).
+of the Roche Group). There is no need to submit anything.
 
 
 <a name="modulev"></a>
