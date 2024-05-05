@@ -167,7 +167,8 @@ omics data, and explore the potential of proteomics to infer mode of action.
 Transform Drug Discovery and
 Development](https://www.nvidia.com/en-us/on-demand/session/gtc24-s62281/?playlistId=playList-63333c3f-f2a9-4906-8ad4-bf240bf57aa2)
 by Aviv Regev, Head of Genentech Research and Early Development, Genentech (part
-of the Roche Group). There is no need to submit anything.
+of the Roche Group). The talk was delivered in the GPU Technology Conference
+(GTC) 2024 hosted by NVIDIA. There is no need to submit anything.
 
 
 <a name="modulev"></a>
