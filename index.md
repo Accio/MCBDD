@@ -163,8 +163,12 @@ omics data, and explore the potential of proteomics to infer mode of action.
 
 
 * [Slides of Module IV](assets/2024/MCBDD-2024-ModuleIV.pdf)
+* Offline activities of Module IV: Listen to the talk [Lab in a Loop: AI to
+Transform Drug Discovery and
+Development](https://www.nvidia.com/en-us/on-demand/session/gtc24-s62281/?playlistId=playList-63333c3f-f2a9-4906-8ad4-bf240bf57aa2)
+by Aviv Regev, Head of Genentech Research and Early Development, Genentech (part
+of the Roche Group).
 
-The offline activities of Module IV is to read [*Foiling deadly prions*](assets/2024/Wadman-Science-2024-Foiling-deadly-prions.pdf), a news article by Meredith Wadman published in Science 2024. It introduces an ongoing clinical trial to test the efficacy of a new drug to remove prions and the context.
 
 <a name="modulev"></a>
 
@@ -173,8 +177,7 @@ The offline activities of Module IV is to read [*Foiling deadly prions*](assets/
 In module V, we will consider entry-into human and clinical studies from the perspective of PK/PD modelling, biomarker, and causal inference.
 
 * [Slides of Module V](assets/2023/ModuleV/MCBDD-2023-ModuleV.pdf)
-
-In May 2023, FDA published a discussion paper titled [*Using Artificial Intelligence and Machine Learning in the Development of Drug and Biological Products*](https://www.fda.gov/media/167973/download) ([PDF](assets/2023/ModuleV/AIML-Discussion-Paper-05-05-23.pdf)). As offline activity of Module V, please read the paper. We will have a discussion in the last lecture of the semester.
+* Offline activities of Module V: Read [*Foiling deadly prions*](assets/2024/Wadman-Science-2024-Foiling-deadly-prions.pdf), a news article by Meredith Wadman published in Science 2024. It introduces an ongoing clinical trial to test the efficacy of a new drug to remove prions and the context. There is no need to submit anything.
 
 ## Contact
 
