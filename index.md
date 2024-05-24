@@ -177,7 +177,7 @@ of the Roche Group). The talk was delivered in the GPU Technology Conference
 
 In module V, we will consider entry-into human and clinical studies from the perspective of PK/PD modelling, biomarker, and causal inference.
 
-* [Slides of Module V](assets/2023/ModuleV/MCBDD-2023-ModuleV.pdf)
+* [Slides of Module V](assets/2024/MCBDD-2024-ModuleV.pdf)
 * Offline activities of Module V: Read [*Foiling deadly prions*](assets/2024/Wadman-Science-2024-Foiling-deadly-prions.pdf), a news article by Meredith Wadman published in Science 2024. It introduces an ongoing clinical trial to test the efficacy of a new drug to remove prions and the context. There is no need to submit anything.
 
 ## Contact
