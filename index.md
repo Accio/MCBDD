@@ -1,18 +1,17 @@
 ---
 layout: default
-title: MCBDD 2024
+title: MCBDD 2025
 ---
 
-Welcome to the web page for _Mathematical and Computational Biology in Drug
+Welcome to the home page for _Mathematical and Computational Biology in Drug
 Discovery_, the course series running at the Department of Mathematics and
-Computer Science, University of Basel in the spring semester 2024.
+Computer Science, University of Basel in the spring semester 2025.
 
 The course is open to all students who wish to learn about principles and
 techniques of mathematical and computational biology as well as their
 applications in drug discovery.
 
-Find administrative details about the lecture [in the course directory of
-University of Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=283368).
+Find administrative details about the lecture [in the course directory of University of Basel](https://vorlesungsverzeichnis.unibas.ch/en/course-directory?id=289361).
 
 ## Table of content
 
@@ -31,25 +30,24 @@ University of Basel](https://vorlesungsverzeichnis.unibas.ch/de/home?id=283368).
 
 ## Preparation
 
-To prepare for the course, please (1) check that you have acquired required
-prior knowledge, (2) make sure that you can commit enough time to the course,
-(3) note that lectures will be in person, and (4) fill [the pre-course
-survey](https://forms.gle/xQwbAa4GFtnrqzuP7).
+Here are a few unsolicited tips in order to help you to determine whether the course is a good choice for you, and to prepare for it.
 
-You should foremost be familiar with the content covered by the course series
-[*Introduction to Applied Mathematics and Informatics In Drug
-Discovery*](https://www.amidd.ch) that run in fall semesters.
+In order to get the most of this course, you are expected to be interested in mathematical and computational methods. With mathematical and computational methods we mean a variety of modeling techniques, such as mechanistic models, statistical models, and causal models, which can be used to describe human biology and body-drug interactions. The course focuses on their applications in drug discovery and development, almost exclusively using real-world examples.
 
-The MCBDD course on average requires about 2-3 hours' time each week for
-reading assignments or programming tasks.
+With regard to background knowledge, the course is highly interdisciplinary. You are expected to be familiar with the content covered by the course series [*Introduction to Applied Mathematics and Informatics In Drug Discovery*](https://www.amidd.ch) that run in fall semesters.
+
+With regard to time: the course takes 2 hours per week and runs only in person. No virtual options are available, and no recordings are provided. Besides the time in classroom, you may need another 2-4 hours' time every week for reading assignments or programming tasks, depending your proficiency and the depth you wish to go with regard to the tasks.
+
+You are welcome to join the course if you are interested, have the necessary background knowledge, and can take the time. If you are not sure, you are welcome to come over in the first class and try yourself whether it fits you.
+
+If you determine to take the course, please [fill the pre-course survey](https://forms.gle/S39ww8tkxmjX7ZXX9). It helps me to adapt the course to your needs.
+
 
 ## Overview
 
 ### Time
 
-Lectures take place on Fridays between 12:15 and 14:00 in Seminarraum 05.002 in
-Spiegelgasse 5, near Schifflände, 4070 Basel. See [Syllabus](#syllabus) for the
-topics we plan to cover.
+Lectures take place on Fridays between 12:15 and 14:00 in Seminarraum 05.002 in Spiegelgasse 5, near Schifflände, 4070 Basel. See [Syllabus](#syllabus) for the topics we plan to cover.
 
 <a name="topics"></a>
 
@@ -58,23 +56,20 @@ topics we plan to cover.
 We mainly discuss following topics from biology
 
 * Genetics and population genetics
-* Genomics and comparative genomics
+* Functional genomics
 * Transcriptomics and proteomics
 * Chemical biology
-* Functional genomics
 * Antisense oligonucleotides and antibodies
 * Pharmacokinetics and pharmacodynamics
 
-We mainly discuss applications of following mathematical and computational
-topics:
+We mainly discuss applications of following mathematical and computational topics:
 
 * Reproducible research tools, such as git, Snakemake/NextFlow, conda, etc.
 * Linear models and generalised linear models
-* Inference methods, such as the Expectation-Maximization (EM) algorithm, Hidden
-  Markov Models (HMMs), clustering algorithms, Monte-Carlo methods, and
-  variational methods
+* Inference methods, such as the Expectation-Maximization (EM) algorithm, Hidden Markov Models (HMMs), clustering algorithms, Monte-Carlo methods, and variational methods
 * Generative models
 * Gene network inference
+* Deep-neural networks
 * Machine learning, deep learning, and Gaussian Process
 * Mathematical modelling
 
@@ -100,9 +95,6 @@ The final grade is given by participation (50%) and offline activities (50%).
 Module Zero is an introduction to mathematical and computational biology in drug
 discovery.
 
-* [Slides of lecture #1](assets/2024/MCBDD-2024-01-Intro.pdf)
-* Offline activities: see slides 15.
-
 <a name="modulei"></a>
 
 ### Module I: What are drug targets and where to find them?
@@ -116,9 +108,6 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 *yourgenome*, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
 by *WEHI* that combines an artist's impression and simulation.
 
-* [Slides of Module I](assets/2024/MCBDD-2024-ModuleI.pdf)
-* Offline activities: see slides 41-43. Submit your results with [this Google Form](https://forms.gle/9jXKKWMh1iRmahyq6) until Friday, March 29, 2024.
-
 <a name="moduleii"></a>
 
 ### Module II: What can we do if there are no good targets?
@@ -128,11 +117,6 @@ particular phenotypic drug discovery. It includes two lectures: (1) phenotypic
 screening with chemogenomic libraries, and (2) molecular phenotypic screening
 based on gene expression.
 
-* [Slides of Module II](assets/2024/MCBDD-2024-ModuleII.pdf)
-* Offline activities of Module II: The explanation can be found in the slides: See *slide number #26*. Please finish the activities and submit the results [here
-  via Google Form](https://forms.gle/uGVbMc5XcrKfRc9w8) before May the first to get credits.
-	* [Here](https://github.com/Accio/MCBDD/blob/main/assets/2023/scripts/202305-MCBDD-ModuleII-offline.ipynb) is a reference solution in a Jupyter Notebook
-
 <a name="moduleiii"></a>
 
 ### Module III: What kind of drug should we develop?
@@ -140,18 +124,6 @@ based on gene expression.
 Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) novel small molecules and antisense oligonucleotides,
 and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
-
-* [Slides of Module III](assets/2024/MCBDD-2024-ModuleIII.pdf)
-* Offline activities of Module III: question-guided learning of factor analysis.  Use your favorite literature programming tools (i.e. Rmarkdown/Jupyter Notebook) to investigate the topic of factor analysis. Use the questions below to guide your learning.
-    * What is factor analysis?
-    * What are the relationships between covariance matrix, factor analysis, and principal component analysis (PCA)?
-    * What do we mean with loadings?
-    * Why factors are orthogonal to each other? What’s the consequence?
-    * How can we use factor analysis as a generative model?
-    * What is the relationship between factor analysis and autoencoder?
-    * How can you it explain factor analysis to a high-school student?
-
-Please submit your answers, together with your code on GitHub or other software repo, to this [Google Form for Module III offline activity](https://forms.gle/CN8PBuUSiLrSV13z6). Please finish the assignment by May 31st, Friday, in order to get the credit.
 
 <a name="moduleiv"></a>
 
@@ -162,23 +134,11 @@ candidates. We will mainly computational analysis and impact of single-cell
 omics data, and explore the potential of proteomics to infer mode of action.
 
 
-* [Slides of Module IV](assets/2024/MCBDD-2024-ModuleIV.pdf)
-* Offline activities of Module IV: Watch the recorded talk [Lab in a Loop: AI to
-Transform Drug Discovery and
-Development](https://www.nvidia.com/en-us/on-demand/session/gtc24-s62281/?playlistId=playList-63333c3f-f2a9-4906-8ad4-bf240bf57aa2)
-by Aviv Regev, Head of Genentech Research and Early Development, Genentech (part
-of the Roche Group). The talk was delivered in the GPU Technology Conference
-(GTC) 2024 hosted by NVIDIA. There is no need to submit anything.
-
-
 <a name="modulev"></a>
 
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
 In module V, we will consider entry-into human and clinical studies from the perspective of PK/PD modelling, biomarker, and causal inference.
-
-* [Slides of Module V](assets/2024/MCBDD-2024-ModuleV.pdf)
-* Offline activities of Module V: Read [*Foiling deadly prions*](assets/2024/Wadman-Science-2024-Foiling-deadly-prions.pdf), a news article by Meredith Wadman published in Science 2024. It introduces an ongoing clinical trial to test the efficacy of a new drug to remove prions and the context. There is no need to submit anything.
 
 ## Contact
 
