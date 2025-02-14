@@ -15,7 +15,8 @@ Find administrative details about the lecture [in the course directory of Univer
 
 ## Table of content
 
-- [Preparation](#preparation)
+- [Is the course the right one for me?](#preparation)
+- [Pre-course survey](#pre-course-survey)
 - [Overview](#overview)
 - [Assessment](#assessment)
 - [Syllabus](#syllabus)
@@ -28,20 +29,22 @@ Find administrative details about the lecture [in the course directory of Univer
 - [Contact](#contact)
 
 
-## Preparation
+<p id="preparation"></p>
 
-Here are a few unsolicited tips in order to help you to determine whether the course is a good choice for you, and to prepare for it.
+## Is the course the right one for me?
 
-In order to get the most of this course, you are expected to be interested in mathematical and computational methods. With mathematical and computational methods we mean a variety of modeling techniques, such as mechanistic models, statistical models, and causal models, which can be used to describe human biology and body-drug interactions. The course focuses on their applications in drug discovery and development, almost exclusively using real-world examples.
+Here are a few unsolicited tips that hopefully help you to determine whether the course is a good choice for you.
 
-With regard to background knowledge, the course is highly interdisciplinary. You are expected to be familiar with the content covered by the course series [*Introduction to Applied Mathematics and Informatics In Drug Discovery*](https://www.amidd.ch) that run in fall semesters.
+1. In order to get the most of this course, you are expected to be interested in mathematical and computational methods. With mathematical and computational methods we mean a variety of modeling techniques, such as mechanistic models, statistical models, and causal models, which can be used to describe human biology and body-drug interactions. The course focuses on their applications in drug discovery and development, almost exclusively using real-world examples.
+2. The course is highly interdisciplinary. You are expected to be familiar with the content covered by the course series [*Introduction to Applied Mathematics and Informatics In Drug Discovery*](https://www.amidd.ch) that run in fall semesters.
+3. With regard to time: the course takes 2 hours per week and runs only in person. No virtual options are available, and no recordings are provided. Besides the time in classroom, you may need another 2-4 hours' time every week for reading assignments or programming tasks, depending your proficiency and the depth you wish to go with regard to the tasks.
 
-With regard to time: the course takes 2 hours per week and runs only in person. No virtual options are available, and no recordings are provided. Besides the time in classroom, you may need another 2-4 hours' time every week for reading assignments or programming tasks, depending your proficiency and the depth you wish to go with regard to the tasks.
+If you are not sure yet, you are welcome to come over in the first class and try yourself whether it fits you.
 
-You are welcome to join the course if you are interested, have the necessary background knowledge, and can take the time. If you are not sure, you are welcome to come over in the first class and try yourself whether it fits you.
+
+## Pre-course survey
 
 If you determine to take the course, please [fill the pre-course survey](https://forms.gle/S39ww8tkxmjX7ZXX9). It helps me to adapt the course to your needs.
-
 
 ## Overview
 
