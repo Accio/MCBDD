@@ -98,6 +98,13 @@ The final grade is given by participation (50%) and offline activities (50%).
 Module Zero is an introduction to mathematical and computational biology in drug
 discovery.
 
+Offline activity:
+
+* [Fill the pre-course survey](https://forms.gle/S39ww8tkxmjX7ZXX9) if you have
+not done so.
+* Read [How GLP-1 went from being a hard-to-handle hormone to a blockbuster success]({{site.assetbaseurl}}{% link assets/2025/Mullard-Knudsen-NRDD-2024.pdf %}). What surprises you most?
+
+
 <a name="modulei"></a>
 
 ### Module I: What are drug targets and where to find them?
