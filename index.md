@@ -96,14 +96,14 @@ The final grade is given by participation (50%) and offline activities (50%).
 ### Module Zero: Introduction
 
 Module Zero is an introduction to mathematical and computational biology in drug
-discovery. The slides can be found [here]({{site.assetbaseurl}}{% link assets/2025/MCBDD-2025-Intro.pdf %}).
+discovery. The slides can be found [here](assets/2025/MCBDD-2025-Intro.pdf).
 
 
 Offline activity:
 
 * [Fill the pre-course survey](https://forms.gle/S39ww8tkxmjX7ZXX9) if you have
 not done so.
-* Read [How GLP-1 went from being a hard-to-handle hormone to a blockbuster success]({{site.assetbaseurl}}{% link assets/2025/Mullard-Knudsen-NRDD-2024.pdf %}). What surprises you most?
+* Read [How GLP-1 went from being a hard-to-handle hormone to a blockbuster success](assets/2025/Mullard-Knudsen-NRDD-2024.pdf). What surprises you most?
 
 
 <a name="modulei"></a>
