@@ -119,6 +119,8 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 *yourgenome*, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
 by *WEHI* that combines an artist's impression and simulation.
 
+The slides can be found [here](assets/2025/MCBDD-2025-ModuleI.pdf).
+
 <a name="moduleii"></a>
 
 ### Module II: What can we do if there are no good targets?
