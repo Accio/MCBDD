@@ -132,6 +132,9 @@ particular phenotypic drug discovery. It includes two lectures: (1) phenotypic
 screening with chemogenomic libraries, and (2) molecular phenotypic screening
 based on gene expression.
 
+
+The slides can be found [here](assets/2025/MCBDD-2025-ModuleII.pdf).
+
 <a name="moduleiii"></a>
 
 ### Module III: What kind of drug should we develop?
