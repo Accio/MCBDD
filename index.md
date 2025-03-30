@@ -135,7 +135,7 @@ based on gene expression.
 
 The slides can be found [here](assets/2025/MCBDD-2025-ModuleII.pdf).
 
-The offline activity is about using your favourite programming languages to query APIs (application programming interface) of chemical and biological databases. See slide #26 for the details of the tasks.
+The offline activity is about using your favourite programming languages to query APIs (application programming interface) of chemical and biological databases. See slide #26 for the details of the tasks. In order to get the credits, please store your implementation in a GitHub/GitLab repository, and share with me the link to your repository via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfvoDiBuzwQE2D3HWDb-HES8v0MYI9ok8o93rZOjTtDJnduog/viewform?usp=sharing) by *April 18th, Friday*.
 
 <a name="moduleiii"></a>
 
