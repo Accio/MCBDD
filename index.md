@@ -137,6 +137,10 @@ The slides can be found [here](assets/2025/MCBDD-2025-ModuleII.pdf).
 
 The offline activity is about using your favourite programming languages to query APIs (application programming interface) of chemical and biological databases. See slide #26 for the details of the tasks. In order to get the credits, please store your implementation in a GitHub/GitLab repository, and share with me the link to your repository via [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfvoDiBuzwQE2D3HWDb-HES8v0MYI9ok8o93rZOjTtDJnduog/viewform?usp=sharing) by *April 18th, Friday*.
 
+In addition to the offline activity, one additional exercise is to understand what *factor analysis* by using a real-world example to explain how it works. The goal is to understand when it is appropriate to use factor analysis, and how it reassembles and differs from the principal component analysis (PCA) that we addressed in the course. There is no need to submit the outcome of this exercise.
+
+Last but not least, I invite all participants to [fill the anonymous survey about Module II](https://forms.gle/rS8N2ahVN3R8UWxj8). If you have suggestions, questions, or criticisms, you can safely express them there.
+
 <a name="moduleiii"></a>
 
 ### Module III: What kind of drug should we develop?
