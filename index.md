@@ -149,6 +149,8 @@ Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) novel small molecules and antisense oligonucleotides,
 and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
 
+The slides can be found [here](assets/2025/MCBDD-2025-ModuleIII.pdf).
+
 <a name="moduleiv"></a>
 
 ### Module IV: What efficacy and safety profiles can we expect?
