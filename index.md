@@ -149,11 +149,9 @@ Module III considers modality selection from a computational point of view. It
 includes two lectures: (1) novel small molecules and antisense oligonucleotides,
 and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
 
-The slides can be found [here](assets/2025/MCBDD-2025-ModuleIII.pdf).
-
-I invite all participants to fill out [an anonymous survey about Module III](https://forms.gle/aiiFvJGhqBCCNY7d8). It only takes a few minutes, and your input will greatly help to improve the course.
-
-The offline activity of Module III is to read a draft of review about leveraging protein turnover for drug discovery. The manuscript is distributed via E-mail to course participants. Please fill the [Google Form](https://forms.gle/mFzEsykRCWDpv1rM7) in order to confirm that you finished the task and to share your questions, criticism, and suggestions.
+* The slides can be found [here](assets/2025/MCBDD-2025-ModuleIII.pdf).
+* I invite all participants to fill out [an anonymous survey about Module III](https://forms.gle/aiiFvJGhqBCCNY7d8). It only takes a few minutes, and your input will greatly help to improve the course.
+* The offline activity of Module III is to read a draft of review about leveraging protein turnover for drug discovery. The manuscript is distributed via E-mail to course participants. Please fill the [Google Form](https://forms.gle/mFzEsykRCWDpv1rM7) in order to confirm that you finished the task and to share your questions, criticism, and suggestions. The task is due by May 9th, 2025 (Friday).
 
 <a name="moduleiv"></a>
 
