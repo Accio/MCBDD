@@ -158,9 +158,9 @@ and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
 ### Module IV: What efficacy and safety profiles can we expect?
 
 Module IV focuses on MoA inference for safety and efficacy profiles of drug
-candidates. We will mainly computational analysis and impact of single-cell
-omics data, and explore the potential of proteomics to infer mode of action.
+candidates. We will explore the difference between causal inference and statistical modelling, as well as computational analysis and impact of single-cell omics data.
 
+The slides can be found [here](assets/2025/MCBDD-2025-ModuleIV.pdf).
 
 <a name="modulev"></a>
 
