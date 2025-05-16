@@ -168,6 +168,8 @@ The slides can be found [here](assets/2025/MCBDD-2025-ModuleIV.pdf).
 
 In module V, we will consider entry-into human and clinical studies from the perspective of PK/PD modelling, biomarker, and causal inference.
 
+The slides can be found [here](assets/2025/MCBDD-2025-ModuleV.pdf).
+
 ## Contact
 
 In case you have further questions, comments, and suggestions about the course,
