@@ -11,7 +11,7 @@ The course is open to all students who wish to learn about principles and
 techniques of mathematical and computational biology as well as their
 applications in drug discovery.
 
-Find administrative details about the lecture [in the course directory of University of Basel](https://vorlesungsverzeichnis.unibas.ch/en/course-directory?id=TBD) (course ID to be updated).
+Find administrative details about the lecture [in the course directory of University of Basel](https://vorlesungsverzeichnis.unibas.ch/en/course-directory?id=298446) (course ID to be updated).
 
 ## Table of content
 
@@ -44,7 +44,7 @@ If you are not sure yet, you are welcome to come over in the first class and try
 
 ## Pre-course survey
 
-If you determine to take the course, please fill the pre-course survey [Form URL to be updated]. It helps me to adapt the course to your needs.
+If you determine to take the course, please fill [the pre-course survey](https://forms.gle/AkEfguThEr4YFpDq6). Your input helps me to adapt the course to your needs.
 
 ## Overview
 
