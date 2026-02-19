@@ -103,7 +103,7 @@ Offline activity:
 
 * Fill the pre-course survey [Form URL to be updated] if you have
 not done so.
-* Read [How GLP-1 went from being a hard-to-handle hormone to a blockbuster success](assets/2026/Mullard-Knudsen-NRDD-2024.pdf). What surprises you most?
+* Read [Analysis of phase II and phase III clinical trial terminations from 2013 to 2023](https://www.nature.com/articles/d41573-025-00208-6) (Nature Review Drug Discovery, 2025), including [the supplementary information](https://www.nature.com/magazine-assets/d41573-025-00208-6/51836778). What surprised you most?
 
 
 <a name="modulei"></a>
