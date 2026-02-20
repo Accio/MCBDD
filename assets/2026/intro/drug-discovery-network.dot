@@ -1,0 +1,95 @@
+digraph DrugDiscovery {
+    layout=fdp;
+    splines=true;
+    overlap=false;
+    sep="+4";
+
+    // All five groups are centered at x=3.5 (canvas ~7.5 × 9.5 in)
+    // → fits on half of a 16:9 landscape slide
+    // Node width=1.5, gap=0.3, font=13
+
+    node [fontname="Helvetica", fontsize=13, style="filled,rounded",
+          margin="0.14,0.08", shape=box, height=0.5, width=1.5];
+    edge [fontname="Helvetica", fontsize=10];
+
+    // ── Group 1: Basic Science — blue tint→base→shade ────────────────────
+    basic    [label="Basic science\n& real-world observations",
+              fillcolor="#AACDE3",                  pos="1.4,8.0!"];
+    target   [label="Target ID\n& Validation",
+              fillcolor="#2B83BA", fontcolor=white, pos="3.2,8.0!"];
+    modality [label="Modality\nselection",
+              fillcolor="#20628C", fontcolor=white, pos="5.0,8.0!"];
+    go0      [label="", shape=diamond, fillcolor=black, style=filled,
+              width=0.26, height=0.16, fixedsize=true, pos="6.2,8.0!"];
+
+    // ── Group 2: Hit Discovery & Lead Opt — green tint→base→shade ───────
+    assay [label="Assay Dev &\nScreening",
+           fillcolor="#DDF1DB",                     pos="1.4,6.7!"];
+    hit   [label="Hit ID &\nLead identification",
+           fillcolor="#ABDDA4",                     pos="3.2,6.7!"];
+    go1   [label="", shape=diamond, fillcolor=black, style=filled,
+           width=0.26, height=0.16, fixedsize=true, pos="4.4,6.7!"];
+    lead  [label="Lead\nOptimisation",
+           fillcolor="#80A67B",                     pos="5.6,6.7!"];
+
+    // ── Group 3: Candidate & Preclinical — yellow base→shade ────────────
+    preclin [label="Preclinical\nDevelopment",
+             fillcolor="#FFFFBF",                   pos="2.3,5.5!"];
+    go2     [label="", shape=diamond, fillcolor=black, style=filled,
+             width=0.26, height=0.16, fixedsize=true, pos="3.5,5.5!"];
+    cand    [label="Candidate\nSelection",
+             fillcolor="#A6A67C",                   pos="4.7,5.5!"];
+
+    // ── Group 4: Clinical — orange tint→base→shade ───────────────────────
+    ph1 [label="Phase I\n(safety / PK)",
+         fillcolor="#FEDEC0",                       pos="1.0,4.2!"];
+    go3 [label="", shape=diamond, fillcolor=black, style=filled,
+         width=0.26, height=0.16, fixedsize=true,  pos="2.3,4.2!"];
+    ph2 [label="Phase II\n(efficacy / dose)",
+         fillcolor="#FDAE61",                       pos="3.5,4.2!"];
+    go4 [label="", shape=diamond, fillcolor=black, style=filled,
+         width=0.26, height=0.16, fixedsize=true,  pos="4.7,4.2!"];
+    ph3 [label="Phase III\n(confirmatory)",
+         fillcolor="#BE8349", fontcolor=white,      pos="6.0,4.2!"];
+
+    // ── Group 5: Regulatory & Market — red tint→base ────────────────────
+    reg    [label="Regulatory\nReview",
+            fillcolor="#EFA3A4",                    pos="2.6,3.0!"];
+    market [label="Market Approval\n& Phase IV",
+            fillcolor="#D7191C", fontcolor=white,   pos="4.4,3.0!"];
+
+    // ── Forward edges ──────────────────────────────────────────────────────
+    edge [color="#333333", style=solid];
+
+    basic -> target -> modality -> go0;
+    go0 -> assay   ;
+    assay -> hit -> go1;
+    go1 -> lead    ;
+    lead -> preclin;
+    preclin -> go2;
+    go2 -> cand;
+    cand -> ph1;
+    ph1 -> go3;
+    go3 -> ph2     ;
+    ph2 -> go4;
+    go4 -> ph3     ;
+    ph3 -> reg;
+    reg -> market;
+
+    // ── Feedback edges ─────────────────────────────────────────────────────
+    edge [color="#c62828", style=dashed, fontcolor="#c62828", constraint=false];
+
+    go0 -> target  [label="new target\nor modality"];
+    go1 -> assay   [label="re-screen"];
+    go2 -> lead    [label="further\nmodification"];
+    cand -> lead   [label="tox / PK failure"];
+    go3 -> ph1     [label="dose redesign"];
+    go4 -> ph2     [label="new endpoint"];
+
+    ph2     -> target [label="new biomarkers"];
+    ph3     -> basic  [label="revised hypothesis"];
+    market  -> target [label="new indications"];
+    market  -> basic  [label="safety signals"];
+    reg     -> ph3    [label="additional data\nrequest"];
+    lead    -> target [label="target\nre-assessment"];
+}
