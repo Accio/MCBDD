@@ -58,38 +58,21 @@ digraph DrugDiscovery {
     market [label="Market Approval\n& Phase IV",
             fillcolor="#D7191C", fontcolor=white,   pos="4.4,3.0!"];
 
-    // ── Forward edges ──────────────────────────────────────────────────────
+    // ── Forward edges only ─────────────────────────────────────────────────
     edge [color="#333333", style=solid];
 
     basic -> target -> modality -> go0;
-    go0 -> assay   ;
+    go0 -> assay;
     assay -> hit -> go1;
-    go1 -> lead    ;
+    go1 -> lead;
     lead -> preclin;
     preclin -> go2;
     go2 -> cand;
     cand -> ph1;
     ph1 -> go3;
-    go3 -> ph2     ;
+    go3 -> ph2;
     ph2 -> go4;
-    go4 -> ph3     ;
+    go4 -> ph3;
     ph3 -> reg;
     reg -> market;
-
-    // ── Feedback edges ─────────────────────────────────────────────────────
-    edge [color="#c62828", style=dashed, fontcolor="#c62828", constraint=false];
-
-    go0 -> target  [label="new target\nor modality"];
-    go1 -> assay   [label="re-screen"];
-    go2 -> lead    [label="further\nmodification"];
-    cand -> lead   [label="tox / PK failure"];
-    go3 -> ph1     [label="dose redesign"];
-    go4 -> ph2     [label="new endpoint"];
-
-    ph2     -> target [label="new biomarkers"];
-    ph3     -> basic  [label="revised hypothesis"];
-    market  -> target [label="new indications"];
-    market  -> basic  [label="safety signals"];
-    reg     -> ph3    [label="additional data\nrequest"];
-    lead    -> target [label="target\nre-assessment"];
 }
