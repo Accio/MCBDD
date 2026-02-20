@@ -101,9 +101,9 @@ discovery. The slides can be found [here](assets/2026/MCBDD-2026-Intro.pdf).
 
 Offline activity:
 
-* Fill the pre-course survey [Form URL to be updated] if you have
-not done so.
-* Read [Analysis of phase II and phase III clinical trial terminations from 2013 to 2023](https://www.nature.com/articles/d41573-025-00208-6) (Nature Review Drug Discovery, 2025), including [the supplementary information](https://www.nature.com/magazine-assets/d41573-025-00208-6/51836778). What surprised you most?
+* Please share your feedback about the course [via this Google Form](https://forms.gle/37W67yXAzwjgineA8).
+* Fill the [pre-course survey](https://forms.gle/AkEfguThEr4YFpDq6), if you have not done so.
+* Read [Analysis of phase II and phase III clinical trial terminations from 2013 to 2023](https://www.nature.com/articles/d41573-025-00208-6) (Nature Review Drug Discovery, 2025), including [the supplementary information](https://www.nature.com/magazine-assets/d41573-025-00208-6/51836778). What surprised you most? Please [submit your answers here](https://forms.gle/hXdECtodZk2VgoEA6) latest by March 5th (Thursday), 2026.
 
 
 <a name="modulei"></a>
