@@ -119,9 +119,9 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 *yourgenome*, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
 by *WEHI* that combines an artist's impression and simulation.
 
-The slides can be found [here](assets/2026/MCBDD-2026-ModuleI.pdf). Please fill out the anonymous survey for Module I [Form URL to be updated].
+The slides can be found [here](assets/2026/MCBDD-2026-ModuleI.pdf). 
 
-The offline activity contains two parts: (1) reading the paper by Minikel *et al.*, (2) writing code to better understand the relationship between specificity, sensitivity, and prevalence. They are described in the slides #50-#51. Please submit your replies to offline activities by March 13th, 2026 [Form URL to be updated].
+The offline activity contains two parts: (1) reading the paper by Minikel *et al.*, (2) writing code to better understand the relationship between specificity, sensitivity, and prevalence. Please submit your replies to offline activities by March 19th, 2026 via [this Google Form](https://forms.gle/An4NQZQyL6asmr7M8).
 
 <a name="moduleii"></a>
 
