@@ -1,6 +1,6 @@
 ---
 title: Talking about the hamsters
-date: March 6th, 2025
+date: March 6th, 2026
 author: Jitao David Zhang
 fontsize: 12pt
 colorlinks: true
@@ -13,7 +13,7 @@ geometry: margin=1in
 documentclass: article
 ---
 
-We discussed the following question [in the MCBDD course (link to the course's website)](https://accio.github.io/MCBDD/assets/2026/MCBDD-2026-ModuleI.pdf)
+We discussed the following question [in the MCBDD course (link to the course's website)](https://accio.github.io/MCBDD/assets/2026/MCBDD-2026-ModuleI.pdf).
 
 ```
 I have two pills and two hamsters. The pills are identical.
@@ -38,7 +38,7 @@ I think the answer is 2/3. Below are two different ways to reach the conclusion.
 
 It is clear that pill B is not possible, so the randomly chosen hamster must have been given either Pill A or Pill C.
 
-The most tricky part of the game is that pill C makes one hamster sleep but not the other, and there is no way we can tell the difference between the two until we given them Pill C. For convenience, let us call the hamster that falls asleep upon treatment with Pill C 'H1' and the one which would have stayed awake 'H2'.
+The most tricky part of the game is that pill C makes one hamster sleep but not the other, and there is no way we can tell the difference between the two until we give them Pill C. For convenience, let us call the hamster that falls asleep upon treatment with Pill C 'H1' and the one which would have stayed awake 'H2'.
 
 Our observation was that upon being given a pill, a hamster - either H1 or H2 - falls asleep. What are the possible scenarios?
 
@@ -46,21 +46,21 @@ Our observation was that upon being given a pill, a hamster - either H1 or H2 - 
 * Pill A was given to H2
 * Pill C was given to H1
 
-All three scenarios have an equal probability, i.e. 1/3. Note that neither events involving Pill B , and the event that Pill C was given to H2 is impossible, because it contracts with the observation that the first hamster fall asleep.
+All three scenarios have an equal probability, i.e. 1/3. Note that none of the events involve Pill B, and the event that Pill C was given to H2 is impossible, because it contradicts the observation that the first hamster falls asleep.
 
 * If Pill A was given to H1 (probability 1/3), the probability that H2 (the other hamster) falls asleep when another pill is given is 1.
 * If Pill A was given to H2 (probability 1/3), the probability that H1 falls asleep when another pill is given is 1.
 * If Pill C was given to H1 (probability 1/3), the probability that H2 falls asleep when another pill is given is 0.
 
-Therefore, the total likelihood that the other hamster falls asleep when the same pill is given is 2/3.
+Therefore, the total likelihood that the other hamster falls asleep when another pill of the same type is given is 2/3.
 
-Intuitively, given that Pill A always works and Pill C works only sometimes, the likelihood that our observation that a hamster falls asleep is more likely to be caused by Pill A than by Pill C.
+Intuitively, since Pill A always works and Pill C works only half the time, the observation that a hamster falls asleep is more likely to have been caused by Pill A than by Pill C.
 
 ## The Bayes' theorem solution
 
 ### Assigning probabilities to pill selection
 
-Since we have no other information than the two pills are of the same type, we believe that the probabilities that the two pills are of Type A, B, or C are qeual:  $p(A)=p(B)=p(C)=\frac{1}{3}$
+Since we have no other information than the two pills are of the same type, we believe that the probabilities that the two pills are of Type A, B, or C are equal: $p(A)=p(B)=p(C)=\frac{1}{3}$.
 
 ### Probability of the observation, i.e. a randomly chosen hamster falling asleep
 
@@ -82,7 +82,7 @@ Now we can use Bayes' theorem to ask the reverse question: given that a randomly
 
 $$
 \begin{aligned}
-p(A|S) = \frac{p(A)p(S|A)}{p(S)} = 1/3/(1/2) = 2/3 \\
+p(A|S) = \frac{p(A)p(S|A)}{p(S)} = \frac{1/3 \cdot 1}{1/2} = 2/3 \\
 p(C|S) = \frac{p(C)p(S|C)}{p(S)} = 1/3 * (1/2) / (1/2) = 1/3 \\
 p(B|S) = 0 \\
 \end{aligned}
@@ -105,7 +105,7 @@ Therefore,
 p(T|S) = 2/3 * 1 + 1/3 * 0 = 2/3
 \]
 
-Namely, the probability that the other hamster, given the same pill, would fall asleep is 2/3.
+Namely, the probability that the other hamster, given another pill of the same type, would fall asleep is 2/3.
 
 ## Some more thoughts and relevant information
 
