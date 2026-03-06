@@ -119,9 +119,11 @@ film [From DNA to protein - 3D](https://www.youtube.com/watch?v=gG7uCskUOrA) by
 *yourgenome*, and the film [mRNA processing and the spliceosome](https://www.youtube.com/watch?v=OfeYFF85u-U&list=PLD0444BD542B4D7D9&index=27)
 by *WEHI* that combines an artist's impression and simulation.
 
-The slides can be found [here](assets/2026/MCBDD-2026-ModuleI.pdf). 
+The slides can be found [here](assets/2026/MCBDD-2026-ModuleI.pdf).
 
-The offline activity contains two parts: (1) reading the paper by Minikel *et al.*, (2) writing code to better understand the relationship between specificity, sensitivity, and prevalence. Please submit your replies to offline activities by March 19th, 2026 via [this Google Form](https://forms.gle/An4NQZQyL6asmr7M8).
+The offline activity contains two parts:
+1. reading the paper [Refining the Impact of Genetic Evidence on Clinical Success](https://doi.org/10.1038/s41586-024-07316-0) by Minikel *et al.*. If you encounter concepts that you do not understand, consider ask LLMs to explain them to you, and discuss them with your friends. Report what surprises you most, and submit any questions that you may have.
+2. Writing code to better understand the relationship between specificity, sensitivity, and prevalence. Please submit your replies to offline activities by March 19th, 2026 via [this Google Form](https://forms.gle/An4NQZQyL6asmr7M8).
 
 <a name="moduleii"></a>
 
