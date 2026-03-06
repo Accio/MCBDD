@@ -88,7 +88,7 @@ License](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise speci
 
 ## Assessment
 
-The final grade is given by participation (50%) and offline activities (50%).
+The final grade is given by participation (50%) and offline activities (50%). [The records can be found here](https://docs.google.com/spreadsheets/d/1hAKyj2w96rCZjC3Kz5-7gb5s9-0CsFoa6APwcc_CXHA/edit?usp=sharing).
 
 ## Syllabus
 
