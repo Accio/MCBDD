@@ -101,9 +101,9 @@ Note that there are only two possibilities of $T$ happening, either by giving Pi
 
 Therefore,
 
-\[
+$$
 p(T|S) = 2/3 * 1 + 1/3 * 0 = 2/3
-\]
+$$
 
 Namely, the probability that the other hamster, given another pill of the same type, would fall asleep is 2/3.
 
