@@ -130,19 +130,13 @@ The offline activity contains three parts:
 
 ### Module II: What can we do if there are no good targets?
 
-Module II discusses about alternatives to target-based drug discovery, in
-particular phenotypic drug discovery. It includes two lectures: (1) phenotypic
-screening with chemogenomic libraries, and (2) molecular phenotypic screening
-based on gene expression.
+Module II discusses about alternatives to target-based drug discovery, in particular phenotypic drug discovery. It includes two lectures: (1) phenotypic screening with genetic and chemogenomic libraries, and (2) molecular phenotypic screening based on gene expression.
 
 
 The slides can be found [here](assets/2026/MCBDD-2026-ModuleII.pdf).
 
-The offline activity is about using your favourite programming languages to query APIs (application programming interface) of chemical and biological databases. See slide #26 for the details of the tasks. In order to get the credits, please store your implementation in a GitHub/GitLab repository, and share with me the link to your repository [Form URL to be updated] by *April 17th, 2026, Friday*.
+The offline activity including reading and programming. Details will be given.
 
-In addition to the offline activity, one additional exercise is to understand what *factor analysis* by using a real-world example to explain how it works. The goal is to understand when it is appropriate to use factor analysis, and how it reassembles and differs from the principal component analysis (PCA) that we addressed in the course. There is no need to submit the outcome of this exercise.
-
-Last but not least, I invite all participants to fill the anonymous survey about Module II [Form URL to be updated]. If you have suggestions, questions, or criticisms, you can safely express them there.
 
 <a name="moduleiii"></a>
 
