@@ -137,7 +137,7 @@ The slides can be found [here](assets/2026/MCBDD-2026-ModuleII.pdf).
 
 The offline activity including reading and programming:
 * After lecture 3 (March 20th), please think about how to define representativity and selectivity mathematically, and read about the Gini Index and Shannon Entropy.
-* Read this review before the next lecture on March 27th: Vincent, Fabien, and Davide Gianni. “The Limitations of Small Molecule and Genetic Screening in Phenotypic Drug Discovery.” Cell Chemical Biology (2025). https://doi.org/10.1016/j.chembiol.2025.10.008.
+* Read this review before the next lecture on March 27th: Vincent, Fabien, and Davide Gianni. [“The Limitations of Small Molecule and Genetic Screening in Phenotypic Drug Discovery.”](https://doi.org/10.1016/j.chembiol.2025.10.008), Cell Chemical Biology (2025).
 
 
 <a name="moduleiii"></a>
