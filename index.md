@@ -135,10 +135,17 @@ Module II discusses about alternatives to target-based drug discovery, in partic
 
 The slides can be found [here](assets/2026/MCBDD-2026-ModuleII.pdf).
 
-The offline activity including reading and programming:
+The offline activity of the first lecture involves thinking and reading.
+
 * After lecture 3 (March 20th), please think about how to define representativity and selectivity mathematically, and read about the Gini Index and Shannon Entropy.
 * Read this review before the next lecture on March 27th: Vincent, Fabien, and Davide Gianni. [“The Limitations of Small Molecule and Genetic Screening in Phenotypic Drug Discovery.”](https://doi.org/10.1016/j.chembiol.2025.10.008), Cell Chemical Biology (2025).
 
+The offline activity of the second lecture involves giving feedback and programming.
+
+* I appreciate [your anonymous feedback about Module II](https://forms.gle/ES7ot37f5RWZwYHH7) on phenotypic drug discovery.
+* The programming task: Use a literature programming tool of your own choice, for instance Jupyter Notebook, R Markdown, or Quarto, to write a short tutorial about factor analysis, including an use case of your own choice. The goal is to explain the concept of factor analysis to others who have not heard about it, and to demonstrate how to do it. Submit your document to a GitHub/GitLab repo, and submit the link to your repository [here via Google Form](https://forms.gle/j68MG6BWMw9zB7TV9). Please submit until *end of business day, April the 9th, Thursday*.
+
+The original task announced in the course, which was to query ChEMBL and UniProt web-services with APIs, was deprecated. The reason is that the ChEMBL API is unfortunately broken as of March 2027.
 
 <a name="moduleiii"></a>
 
