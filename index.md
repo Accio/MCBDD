@@ -151,11 +151,10 @@ The original task announced in the course, which was to query ChEMBL and UniProt
 
 ### Module III: What kind of drug should we develop?
 
-Module III considers modality selection from a computational point of view. It
-includes two lectures: (1) novel small molecules and antisense oligonucleotides,
-and (2) antibodies, multi-target drugs, and gene- and cell-therapies.
+Module III considers modality selection from a computational point of view. The goal is to introduce essentials of drug modalities, in particular emerging modalities such as small-molecule splicing modifier, and design and development of therapeutic antibodies.
 
-* The slides can be found [here](assets/2026/MCBDD-2026-ModuleIII.pdf).
+The slides can be found [here](assets/2026/MCBDD-2026-ModuleIII.pdf).
+
 * I invite all participants to fill out an anonymous survey about Module III [Form URL to be updated]. It only takes a few minutes, and your input will greatly help to improve the course.
 * The offline activity of Module III is to read a draft of review about leveraging protein turnover for drug discovery. The manuscript is distributed via E-mail to course participants. Please fill the Google Form [Form URL to be updated] in order to confirm that you finished the task and to share your questions, criticism, and suggestions. The task is due by May 8th, 2026 (Friday).
 
