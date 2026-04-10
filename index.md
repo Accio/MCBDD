@@ -155,7 +155,7 @@ Module III considers modality selection from a computational point of view. The 
 
 The slides can be found [here](assets/2026/MCBDD-2026-ModuleIII.pdf).
 
-* Offline activity after the lecture on 10.04: [read *Choose Your Modality*](assets/2026/CEN-ACS-2025-ChooseYourModality.pdf), an article published in C&EN Global Enterprise, American Society of Chemistry, in April 2025. Ask *any* questions about the article and about the topic of modality selection that interest you, and submit them [here via Google Form](https://forms.gle/P4qtPx4tGY3NPnc6A) by Thursday, April 16th.
+* Offline activity after the lecture on 10.04: read [*Choose Your Modality*](assets/2026/CEN-ACS-2025-ChooseYourModality.pdf), an article published in C&EN Global Enterprise, American Society of Chemistry, in April 2025. Ask *any* questions about the article and about the topic of modality selection that interest you, and submit them [here via Google Form](https://forms.gle/P4qtPx4tGY3NPnc6A) by Thursday, April 16th.
 
 <a name="moduleiv"></a>
 
