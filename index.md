@@ -159,8 +159,8 @@ The slides can be found [here](assets/2026/MCBDD-2026-ModuleIII.pdf).
 * Offline activity after the lecture on 17.04:
 	* I invite you to [fill the anonymous feedback](https://forms.gle/7vGnohTk9Ykj9HH39) for the lectures of Module III.
 	* Please read [Common statistical tests are linear are linear models](https://lindeloev.github.io/tests-as-linear/) by Jonas Kristoffer Lindeløv. Once you have finished the reading, please use examples and programming language of your choice to show how Student's test, Mann-Whitney test, Wilcoxon signed-rank test, and Wald test relate to each other. Submit a Rmarkdown, or Juypter notebook, or other another literature-programming document as a GitLab/GitHub repository, together with any questions or comments you may have, [via the Google Form here](https://forms.gle/eFt4AZSdF2oc5DbSA).
-    * Using existing examples or inspirations by language models is welcome, as long as you improve your understanding of the topic.
-    * Please take your time to understand these topics as thoroughly as you can. For this reason we will have two weeks before the submission deadline, which will be April 30th, Thursday, EOB.
+		* Using existing examples or inspirations by language models is welcome, as long as you improve your understanding of the topic.
+		* Please take your time to understand these topics as thoroughly as you can: the submission deadline is in *two weeks*, on April 30th, Thursday, EOB.
 
 <a name="moduleiv"></a>
 
