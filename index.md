@@ -171,6 +171,10 @@ candidates. We will explore the difference between causal inference and statisti
 
 The slides can be found [here](assets/2026/MCBDD-2026-ModuleIV.pdf).
 
+Offline activities
+
+* Read [Accurate Predictions on Small Data with a Tabular Foundation Model](https://doi.org/10.1038/s41586-024-08328-6) by Hollmann *et al.* (Nature, 2025). Try out [TabPFN](https://github.com/PriorLabs/TabPFN) with one problem of your choice.
+
 <a name="modulev"></a>
 
 ### Module V: For which patients will the drug work and how does it work, *really*?
