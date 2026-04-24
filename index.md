@@ -173,7 +173,10 @@ The slides can be found [here](assets/2026/MCBDD-2026-ModuleIV.pdf).
 
 Offline activities
 
-* Read [Accurate Predictions on Small Data with a Tabular Foundation Model](https://doi.org/10.1038/s41586-024-08328-6) by Hollmann *et al.* (Nature, 2025). Try out [TabPFN](https://github.com/PriorLabs/TabPFN) with one problem of your choice.
+* (After the first lecture) Read [*Accurate Predictions on Small Data with a Tabular Foundation Model*](https://doi.org/10.1038/s41586-024-08328-6) by Hollmann *et al.* (Nature, 2025). Try out [TabPFN](https://github.com/PriorLabs/TabPFN) with one problem of your choice. Please use Rmarkdown/Jupyter Notebook or similar solutions to document the background of your problem, how TabPFN performed, how it benchmarks with other methods that you tried, and what your conclusions are.
+* (After the second lecture) Read [*Leveraging Protein Turnover in Drug Discovery: A Practical Guide.*](https://doi.org/10.1021/mc-2025-vol60.ch17) by Zhang et al. (Med Chem Review, 2025). 
+* Submit your learnings and questions of both exercises via [this Google Form](https://forms.gle/UUoxd6Wuhehzk9hU6).
+
 
 <a name="modulev"></a>
 
