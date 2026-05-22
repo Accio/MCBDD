@@ -182,7 +182,7 @@ Offline activities
 
 ### Module V: For which patients will the drug work and how does it work, *really*?
 
-In module V, we will consider entry-into human and clinical studies from the perspective of PK/PD modelling, biomarker, and causal inference.
+In module V, we will consider preclinical development and clinical studies from the perspective of PK/PD modelling and biomarker studies.
 
 The slides can be found [here](assets/2026/MCBDD-2026-ModuleV.pdf).
 
