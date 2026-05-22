@@ -186,6 +186,11 @@ In module V, we will consider preclinical development and clinical studies from 
 
 The slides can be found [here](assets/2026/MCBDD-2026-ModuleV.pdf).
 
+Offline activity:
+
+* Please read [Sid Sijbrandij Cancer Journey](https://sytse.com/cancer/), a Google Slide presentation shared by Sid Sijbrandij. Optionally, in order to help understanding, you can watch the event replay [From Terminal to Turnaround: How GitLab's Co-Founder Leveraged ChatGPT in His Cancer Fight](https://forum.openai.com/public/videos/event-replay-from-terminal-to-turnaround-how-gitlabs-co-founder-leveraged-chatgpt-in-his-cancer-fight-2026-03-18) (48min).
+* Share your thoughts, questions, and opinions about the piece [here](https://forms.gle/AGkHVpzfKoKLiQbW6) no later than Thursday, May 28th. Submit anything else for which I may help you in [the same Google Form](https://forms.gle/AGkHVpzfKoKLiQbW6).
+
 ## Contact
 
 In case you have further questions, comments, and suggestions about the course,
