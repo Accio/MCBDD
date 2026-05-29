@@ -11,7 +11,7 @@ The course is open to all students who wish to learn about principles and
 techniques of mathematical and computational biology as well as their
 applications in drug discovery.
 
-Find administrative details about the lecture [in the course directory of University of Basel](https://vorlesungsverzeichnis.unibas.ch/en/course-directory?id=298446) (course ID to be updated).
+Find administrative details about the lecture [in the course directory of University of Basel](https://vorlesungsverzeichnis.unibas.ch/en/course-directory?id=298446).
 
 ## Table of content
 
