@@ -1,11 +1,20 @@
 WITH    = drug-discovery-network.dot
 WITHOUT = drug-discovery-network-no-feedback.dot
+GPE     = genotype-phenotype-environment.dot
 
 # Duration each frame is shown, in centiseconds (100 cs = 1 s)
 DELAY   = 250
 
 all: drug-discovery-network.png drug-discovery-network-no-feedback.png \
-     drug-discovery-network.gif
+     drug-discovery-network.gif \
+     genotype-phenotype-environment.png genotype-phenotype-environment.pdf
+
+# Cluster/rankdir layout renders best with dot rather than fdp
+genotype-phenotype-environment.png: $(GPE)
+	dot -Tpng -Gdpi=150 $< -o $@
+
+genotype-phenotype-environment.pdf: $(GPE)
+	dot -Tpdf $< -o $@
 
 drug-discovery-network.png: $(WITH)
 	fdp -Tpng -Gdpi=150 $< -o $@
@@ -20,4 +29,5 @@ drug-discovery-network.gif: drug-discovery-network-no-feedback.png \
 .PHONY: clean
 clean:
 	rm -f drug-discovery-network.png drug-discovery-network-no-feedback.png \
-	      drug-discovery-network.gif
+	      drug-discovery-network.gif \
+	      genotype-phenotype-environment.png genotype-phenotype-environment.pdf

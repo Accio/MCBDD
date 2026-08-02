@@ -1,0 +1,99 @@
+// with feedback loops, and a chemical compound perturbing a protein target.
+//
+// Central message: modulating one protein target with a compound can induce
+// different, often unpredictable phenotypes, because the outcome is shaped by
+// genotype, the gene-expression program, the environment, and their interactions.
+//
+// Render:  dot -Tpdf genotype-phenotype-environment.dot -o genotype-phenotype-environment.pdf
+//          dot -Tpng genotype-phenotype-environment.dot -o genotype-phenotype-environment.png
+
+digraph GenotypePhenotypeEnvironment {
+    rankdir = TB;
+    bgcolor = "white";
+    fontname = "Helvetica";
+    labelloc = "t";
+    fontsize = 14;
+    compound = true;
+    nodesep = 0.5;
+    ranksep = 0.7;
+
+    node [fontname = "Helvetica", fontsize = 14, style = "filled", penwidth = 1.2];
+    edge [fontname = "Helvetica", fontsize = 12, penwidth = 1.3, color = "gray35"];
+
+    // ---- GENOTYPE ---------------------------------------------------------
+    Genotype [label = "Genotype\n(DNA sequence)", shape = box, fillcolor = "#d7e3f4", color = "#4a72b0"];
+
+    // ---- GENE EXPRESSION PROGRAM (the intracellular molecular network) -----
+    subgraph cluster_expression {
+        label = "Gene expression program";
+        labelloc = "t";
+        fontsize = 14;
+        style = "filled,rounded";
+        fillcolor = "#eef6ee";
+        color = "#5a9e5a";
+
+        RNA        [label = "RNA",         shape = box, fillcolor = "#dcefdc", color = "#5a9e5a"];
+        Protein    [label = "Proteins",    shape = box, fillcolor = "#dcefdc", color = "#5a9e5a"];
+        Metabolite [label = "Metabolites", shape = box, fillcolor = "#dcefdc", color = "#5a9e5a"];
+
+        RNA -> Protein [label = "translation"];
+        Protein -> Metabolite [label = "catalysis"];
+        Protein -> Protein [label = "Protein-protein interaction", color = "gray50"];
+        Metabolite -> Protein [label = "regulation", style = dashed, color = "gray50"];
+
+        // ---- COMPOUND (the perturbation) --------------------------------------
+        Compound [label = "Chemical perturbation", shape = hexagon, fillcolor = "#fbd6d6", color = "#c0392b"];
+    }
+
+    // ---- ENVIRONMENT ------------------------------------------------------
+    subgraph cluster_environment {
+        label = "ENVIRONMENT";
+        labelloc = "t";
+        fontsize = 14;
+        style = "filled,rounded";
+        fillcolor = "#fdf3e7";
+        color = "#d69a3c";
+
+        Conditions [label = "Environment\n(Physical, chemical and biological conditions)", shape = box, fillcolor = "#fbe8cd", color = "#d69a3c"];
+    }
+
+    // ---- PHENOTYPE --------------------------------------------------------
+    Phenotype [label = "Phenotype\n(observed or inferred biological functions\nacross biological scales)", shape = box, fillcolor = "#e8dff2", color = "#8a5cb0", penwidth = 2.0];
+
+
+    // ======================================================================
+    // FORWARD FLOW
+    // ======================================================================
+    Genotype -> RNA [label = "transcription", lhead = cluster_expression, penwidth = 1.8, color = "#4a72b0"];
+
+    // Environment shapes which RNA/protein are expressed
+    Conditions -> RNA  [label = "which genes\nare expressed", ltail = cluster_environment, lhead = cluster_expression, style = dashed, color = "#d69a3c", penwidth = 1.6];
+
+    // Molecular network + spatio-temporal organisation give rise to phenotype
+    Protein    -> Phenotype [ltail = cluster_expression, label = "molecular interactions +\nspatio-temporal organisation", penwidth = 1.8, color = "#5a9e5a"];
+    Metabolite -> Phenotype [style = invis];
+
+    // ======================================================================
+    // THE PERTURBATION (central aim)
+    // ======================================================================
+    Compound -> Protein [label = "binds / modulates", penwidth = 2.2, color = "#c0392b"];
+
+    // ======================================================================
+    // FEEDBACK LOOPS
+    // ======================================================================
+    // Phenotype alters the environment (e.g. CO2 emission, O2 consumption)
+    Phenotype -> Conditions [label = "alters environment", lhead = cluster_environment, color = "#8a5cb0", constraint = false];
+
+    // Environment exerts selective pressure on phenotype
+    Conditions -> Phenotype [label = "selective pressure", ltail = cluster_environment, style = dashed, color = "#d69a3c", constraint = false];
+
+    // Phenotype -> gene expression via epigenetics (NOT via DNA sequence)
+    Phenotype -> RNA [label = "epigenetic and other feedback", lhead = cluster_expression, style = dashed, color = "#8a5cb0", constraint = false];
+
+    // Phenotype -> genotype via mutation + selection over generations
+    Phenotype -> Genotype [label = "mutation + selection\n(across generations)", style = dashed, color = "#8a5cb0", constraint = false];
+
+    // ---- layout hints -----------------------------------------------------
+    { rank = same; Genotype; }
+    { rank = same; Conditions; }
+}
